@@ -1,0 +1,240 @@
+body {
+    color: #222;
+    background: #F4F4F4;
+    min-width: 320px;
+    -webkit-text-size-adjust: none;
+    margin: 0;
+
+}
+a{
+    text-decoration: none;
+}
+.search-box{
+    min-width: 30px;
+    box-sizing: border-box;
+    position: relative;
+    float: left;
+    right: 19px;
+    top: 24px;
+}
+.search-box .form-control{
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    cursor: pointer;
+}
+.search-box i{
+    position: absolute;
+    font-size: 22px;
+    color: gray;
+    cursor: pointer;
+    right: 15px;
+    top: 5px;
+}
+.content{
+    color: white;
+    position: absolute;
+    font-family: 微软雅黑;
+    width: 100%;
+    height: 100%;
+    font: inherit;
+    padding: 0;
+    margin-top: 0;
+    font-size: 14px;
+    overflow: hidden;
+    box-sizing: border-box;
+    background: url("/images/webi/tv_bg1.jpg") no-repeat;
+    background-size: cover;
+}
+.content .code{
+    margin: 4% 30% 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+/*头部*/
+.top-box{
+    top:0;
+    width: 97%;
+    z-index: 200;
+    height: 80px;
+}
+.top-box .logo{
+    height: 58px;
+    width: 40%;
+    overflow: hidden;
+    float: left;
+    margin-top: 12px;
+    margin-left: 0.5%;
+
+}
+.top-box .logo img{
+    height: 100%;
+    margin: 0 auto;
+}
+.top-icon{
+    float: right;
+}
+.code-button{
+    min-width: 35px;
+    min-height: 35px;
+    box-sizing: border-box;
+    position: relative;
+    float: left;
+    top:24px;
+    right: 10px;
+    cursor: pointer;
+}
+.login{
+    min-width: 60px;
+    box-sizing: border-box;
+    position: relative;
+    float: left;
+    margin-top: 28px;
+}
+.login a{
+    color: #444;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+}
+.login .name{
+    height: 50px;
+    box-sizing: border-box;
+    position: relative;
+    font-size: 17px;
+}
+.login .name a{
+    height: 30px;
+    line-height: 30px;
+    min-width: 60px;
+    text-overflow: ellipsis;
+    white-space:nowrap;
+    overflow: hidden;
+    text-align: right;
+    right: 3px;
+    color: white;
+    text-decoration: none;
+}
+.login .name i{
+    position: absolute;
+    right: -15px;
+    top:11px;
+    color: white;
+    font-size: 4px;
+}
+.login .quit{
+    position: absolute;
+    top: 30px;
+    left: 0;
+    line-height: 23px;
+    height: 23px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    -webkit-border-radius: 10px;
+    -o-border-radius: 10px;
+    -moz-border-radius: 10px;
+    width: 100%;
+    background: #fff;
+}
+.top-box .home{
+    float: right;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+.top-box .home a{
+    display: block;
+}
+.top-box .home img{
+    width: 30px;
+    height: 30px;
+}
+.close-QR{
+    float:right;
+    width: 10%;
+    height: 5%;
+    margin-right: 47%;
+    margin-top: -15px;
+}
+.close-QR i{
+    font-size: 18px;
+    cursor: pointer;
+}
+.mian{
+    position: fixed;
+    margin-top: 10px;
+    width: 97%;
+    height: 100%;
+}
+.left-list{
+    margin-left: 2%;
+    float: left;
+    width: 8%;
+    height: 100%;
+    overflow-y:auto;
+}
+.left-list::-webkit-scrollbar {
+    display: none;
+}
+.left-list ul{
+    padding: 0;
+}
+.left-list ul li{
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    display: block;
+    overflow: hidden;
+    height:50px;
+}
+.left-list-text p{
+    padding: 4% 5% 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space:nowrap;
+}
+.right-list{
+    float: right;
+    width: 90%;
+    overflow-y:auto;
+}
+.ul-master{
+    margin-left: 2px;
+}
+.right-list .master{
+    float: left;
+    margin: 12px 12px 0 0;
+    width: 18%;
+    height: 160px;
+    font-size: 12px;
+    background-color: #03A9F4;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+.master img{
+    padding: 30px 30.5% 9px;
+    display: inline-block;
+    border: none;
+    cursor: pointer;
+}
+.master p{
+    text-align: center;
+    font-size: 1.4em;
+}
+li{
+    list-style: none;
+}
+
+.selected-lable{
+    box-shadow: 0 0 0 2px rgba(81,130,227,.15),inset 0 0 0 2px #108ee9 !important;
+}

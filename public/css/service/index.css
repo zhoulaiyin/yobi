@@ -1,0 +1,453 @@
+/*公共头部和侧边栏*/
+body{
+    height:100%;
+}
+.demand-top-box {
+    width: 100%;
+}
+.demand-top-box .demand-top {
+    overflow: hidden;
+    height: 60px;
+    line-height: 60px;
+    background: #358fff;
+    color: #fff;
+}
+.demand-top .top-title {
+    float: left;
+    padding-left: 35px;
+    margin-left: 23px;
+    background: url("/images/service/demand.png") no-repeat left 18px;
+    font-size: 24px;
+    line-height: 56px;
+}
+.demand-top .top-right {
+    float: right;
+    font-size: 14px;
+    overflow: hidden;
+}
+.top-right span {
+    color: #a6f1ff;
+    margin: 20px 30px 20px 40px ;
+    cursor: pointer;
+}
+.demand-top-box .top-detail {
+    overflow: hidden;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 3px solid #dad9d9 ;
+    background: #fff;
+}
+.top-detail p {
+    float: left;
+    color: #666;
+    font-size: 14px;
+    margin: 0 30px 0 20px;
+}
+.top-detail span {
+    color: #FF5722;
+}
+.demand-cont {
+    overflow: hidden;
+}
+.demand-cont .left-cont {
+    float: left;
+    width: 220px;
+    height: 100%;
+    border-right: 1px solid #c4c4c4;
+    background: #ededed;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.left-cont button.add-demand {
+    width: 180px;
+    height: 40px;
+    margin: 20px;
+    font-size: 18px;
+    line-height: 36px;
+    background: #358fff;
+    color: #fff;
+    border: 1px solid #358fff;
+    border-radius: 2px;
+}
+.add-demand strong {
+    font-size: 20px;
+}
+.sidebar dl {
+    margin-bottom: 20px;
+}
+.sidebar dl dt a {
+    display: block;
+    height: 35px;
+    line-height: 35px;
+    font-size: 18px;
+    color: #444;
+    padding-left: 45px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    background:  url("/images/service/demand.png") no-repeat;
+}
+.sidebar dl dt a:hover, dl dt.cur-list a{
+    background: #cde8fc url("/images/service/demand-2.png") no-repeat;
+    color: #2299ee;
+}
+.sidebar dl.sidebar-list {
+    margin-bottom: 20px;
+}
+dl.sidebar-list dt a ,dl.sidebar-list dt a:hover, dl dt.cur-list a{
+    background-position:  8px -40px;
+}
+dl.complete dt a, dl.complete dt a:hover, dl.complete .cur-list a {
+    background-position: 8px -81px;
+}
+dl.closed dt a, dl.closed dt a:hover, dl.closed .cur-list a {
+    background-position:  6px -122px;
+}
+dl.sidebar-list dd a {
+    display: block;
+    height: 35px;
+    line-height: 35px;
+    padding-left: 45px;
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+dl.sidebar-list dd a span {
+    color: #444;
+    font-weight: 700;
+}
+dl.sidebar-list dd a:hover, dl.sidebar-list dd a:hover span, dl dd.cur-list a , dl dd.cur-list a span{
+    background: #cde8fc;
+    color: #2299ee;
+}
+.demand-cont .right-cont {
+    margin-left: 220px;
+    height: 100%;
+}
+
+/*列表内容*/
+.demand-list-title {
+    overflow: hidden;
+    width: 100%;
+    padding: 20px 0 5px 20px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.demand-list-title p {
+    float: left;
+    font-size: 14px;
+    font-weight: 700;
+    color: #444;
+    margin-top: 2px;
+}
+.demand-list-title button {
+    float: right;
+    padding: 7px 20px;
+    background: #f5f5f5;
+    border: 1px solid #d9d9d9;
+    border-radius: 2px;
+    margin-right: 20px;
+}
+.demand-list {
+    overflow: hidden;
+}
+.demand-list table {
+    width: 100%;
+}
+.demand-list table tr {
+    height: 48px;
+    line-height: 48px;
+    color: #333;
+    font-size: 14px;
+}
+.demand-list table {
+    border-top: 1px solid #dad9d9;
+}
+.demand-list table tr th {
+    border-bottom: 1px solid #ededed;
+}
+.demand-list table tr .th1 {
+    padding-left: 20px;
+    width: 12%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.demand-list table tr .th1 a {
+    color: #358fff;
+}
+.demand-list table tr .th2,.demand-list table tr .th4,.demand-list table tr .th6 {
+    width: 6%;
+}
+.demand-list table tr .th3,.demand-list table tr .th7 {
+    width: 14%;
+}
+.demand-list table tr .th5 {
+    width: 24%;
+}
+.demand-list table tr .th8 {
+    width: 10%;
+}.demand-list table tr .th9 {
+     width: 8%;
+ }
+.demand-list table thead {
+    background: #fafafa;
+    color: #444;
+}
+
+/*分页*/
+#paging {
+    margin: 70px 0 50px 240px;
+    overflow: hidden;
+}
+.paging-left {
+    float: left;
+    overflow: hidden;
+    margin-right: 15px;
+}
+ .paging-left span, .paging-right span {
+    float: left;
+    padding: 6px;
+}
+.paging-left a, .paging-right a {
+    height: 30px;
+    line-height: 30px;
+    padding: 0 10px;
+    float: left;
+    color: #666;
+    border: 1px solid #ededed;
+    margin-left: 8px;
+}
+.paging-left a.cur-a {
+    color: #358fff;
+    border: 1px solid #358fff;
+}
+.paging-right a.cur-page {
+    color: #fff;
+    background: #358fff;
+    border: 1px solid #358fff;
+}
+.paging-right  a.pre-page {
+    margin-left: 35px;
+}
+.paging-right  a.disable {
+    color: #999;
+}
+.paging-right input{
+    float: left;
+    width: 40px;
+    height: 29px;
+    line-height: 29px;
+    text-align: center;
+    border-radius: 0;
+    border: 1px solid #ddd;
+}
+.paging-content .paging-right {
+    float: left;
+    overflow: hidden;
+    margin-left: 10px;
+}
+.paging-right button {
+    height: 30px;
+    line-height: 26px;
+    background: #f5f5f5;
+    border: 1px solid #d9d9d9;
+    padding: 0 10px;
+    margin-left: 10px;
+}
+#paging .paging {
+    float: left;
+}
+#paging li {
+    height: 30px;
+    line-height: 30px;
+}
+.paging .pagination li {
+    border-radius: 0;
+}
+.paging .pagination .upper, .paging .pagination .next {
+    width: 70px;
+}
+.paging .pagination li span {
+    padding: 0;
+}
+.paging .pagination li a {
+    padding: 0 12px;
+}
+
+
+/*弹层*/
+.layer-content {
+
+}
+form {
+    padding: 20px 40px 0 40px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+form .form-item {
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+.form-item .item-label{
+    display: block;
+    float: left;
+    padding: 9px 15px;
+    text-align: right;
+    width: 80px;
+}
+.form-item .input-block {
+    margin-left: 110px;
+    min-height: 37px;
+    overflow: hidden;
+}
+.form-item input{
+    background-color: #fff;
+    border: 1px solid #e6e6e6;
+    border-radius: 2px;
+    display: block;
+    height: 38px;
+    line-height: 38px;
+    padding-left: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.form-item select{
+    background-color: #fff;
+    border: 1px solid #e6e6e6;
+    border-radius: 2px;
+    display: block;
+    height: 38px;
+    line-height: 38px;
+    padding-left: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.form-item .input-block .icheck {
+    float: left;
+    line-height: 17px;
+    margin: 10px 10px 0 0;
+    position: relative;
+}
+.icheck input {
+    position: absolute;
+    top: -6px;
+    left: -6px;
+    width: 30px;
+    height: 30px;
+    z-index: 999;
+    opacity: 0;
+}
+.icheck label {
+    float: left;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: #f5f5f5;
+    border: 1px solid #d9d9d9;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.icheck label:after {
+    content: '';
+    float: left;
+    visibility: hidden;
+    width: 16px;
+    height: 16px;
+    background: #f5f5f5 url("/images/service/icheck-radio.png") no-repeat center center;
+    border-radius: 50%;
+}
+.icheck input:checked + label:after {
+    visibility: visible;
+}
+
+.form-item textarea {
+    height: auto;
+    min-height: 100px;
+    padding: 6px 10px;
+    resize: vertical;
+    background-color: #fff;
+    border: 1px solid #e6e6e6;
+    border-radius: 2px;
+    display: block;
+    width: 100%;
+    line-height: 20px;
+}
+.form-item .input-block .attachment {
+    border: none;
+    background: #22ac38;
+    border-radius: 2px;
+    color: #fff;
+    display: inline-block;
+    padding: 15px 50px;
+    font-weight: 700;
+}
+#photo-upload {
+    margin-bottom: 10px;
+}
+.uplode-file {
+    line-height: 22px;
+}
+.uplode-file a{
+    color: #328acc;
+    margin-left: 10px;
+}
+.red {
+    color: #ff0000;
+}
+.btn-box {
+    margin: 40px 0 0 150px;
+    overflow: hidden;
+}
+.btn-box button {
+    padding: 13px 35px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 2px;
+    border: 1px solid;
+    font-weight: 700;
+}
+.btn-box button.cancel-btn {
+    border-color: #d9d9d9;
+    background: #f5f5f5;
+    color: #666;
+}
+.btn-box button.confirm-btn,.btn-box button.revised-btn {
+    border-color: #358fff;
+    background: #358fff;
+    color: #fff;
+}
+.layui-layer-btn {
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.layui-layer-btn .layui-layer-btn0 {
+    display: inline-block;
+    width: 30px;
+    margin: 0 auto;
+}
+
+/*详情*/
+#demand-detail-box {
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+.back-button{
+    overflow: hidden;
+    margin: 20px 0 5px 0;
+    border-bottom: 1px solid #dad9d9;
+}
+.back-button button {
+    float: right;
+    padding: 7px 20px;
+    background: #f5f5f5;
+    border: 1px solid #d9d9d9;
+    border-radius: 2px;
+    margin: 0 20px 10px 0;
+}

@@ -1,0 +1,98 @@
+/** banner **/
+.banner a{
+    background: url("/images/home/cases/banner4.jpg") no-repeat center center;
+    height: 270px;
+    display: block;
+}
+.wrapper1260{
+    width: 1260px;
+    margin: auto;
+}
+/** 模块1 **/
+.common-box{
+    padding: 50px 0 0;
+}
+h1.title {
+    color: #222;
+    height: 50px;
+    line-height: 50px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.title .cur-border {
+    border-bottom: 2px solid #0f7bd5;
+    display: inline-block;
+}
+.wrapper1190{
+    background: url("/images/home/cases/medicine.png") no-repeat scroll 50% 0;
+    height: 502px;
+    margin: 30px 0 60px;
+    position: relative;
+}
+.wrapper1190 p{
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    position: absolute;
+    text-align: center;
+    width: 80px;
+}
+/** 模块2 **/
+.back-color{
+    background: #f2f2f2;
+}
+.platform{
+    background: url("/images/home/cases/medicine1.png") no-repeat scroll 50% 0;
+    height: 650px;
+    margin-top: 295px;
+    position: relative;
+}
+.platform dl{
+    width: 270px;
+    position: absolute;
+}
+.platform-list1{
+    left: 235px;
+    top: -235px;
+}
+.platform-list2{
+    right: 235px;
+    top: -235px;
+}
+.platform-list3{
+    left: 235px;
+    top: 360px;
+}
+.platform-list4{
+    right: 235px;
+    top: 360px;
+}
+.platform dt{
+    box-sizing: border-box;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.platform .blue{
+    color: #67b2ba;
+    border-bottom: 2px solid #67b2ba;
+}
+.platform .orange{
+    color: #f49254;
+    border-bottom: 2px solid #f49254;
+}
+.platform .red{
+    color: #e26a61;
+    border-bottom: 2px solid #e26a61;
+}
+.platform .green{
+    color: #93bc6d;
+    border-bottom: 2px solid #93bc6d;
+}
+.platform li{
+    color: #666;
+    padding-bottom: 10px;
+    font-size: 16px;
+}
+
+

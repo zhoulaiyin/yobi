@@ -1,0 +1,52 @@
+/*base*/
+.inline_b{
+    display: inline-block;
+}
+.inline{
+    display: inline;
+}
+.fl{
+    float:left;
+}
+.fr{
+    float:right;
+}
+::-webkit-scrollbar{width:0px;}
+/*按钮*/
+.btn-success {
+    color: #fff!important;
+    background-color: #5cb85c!important;
+    border-color: #4cae4c!important;
+}
+.btn-warning {
+    color: #fff!important;
+    background-color: #f0ad4e!important;
+    border-color: #eea236!important;
+}
+.btn-primary ,.layui-layer-page .layui-layer-btn .layui-layer-btn0{
+    color: #fff!important;
+    background-color: #70a7ff!important;
+    border-color: #70a7ff!important;
+}
+
+.layui-laypage .layui-laypage-curr .layui-laypage-em,.layui-laypage-em{
+    background-color: #70a7ff!important;
+}
+
+/*行块元素样式*/
+.layui-layer-content{
+    /*padding:15px;*/
+}
+.search_content .layui-form-item,.search_content .layui-form-select,.search_content .layui-input{
+    display: inline-block;
+}
+.search_content .layui-btn+.layui-btn{
+    margin-left:5px!important;
+}
+.input-group-btn{
+    float:right;
+    margin-left:10px;
+}
+.layui-input,.layui-form-select{
+    width:200px!important;
+}

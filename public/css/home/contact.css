@@ -1,0 +1,110 @@
+.banner a{
+    background: url("/images/home/contact/contact_ban.jpg") no-repeat center center;
+    height: 250px;
+    display: block;
+}
+.contact {
+    padding: 20px 0;
+    width: 630px;
+}
+.hot-logo{
+    border-bottom: 1px solid #cdcdcd;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+}
+h3.title {
+    height: 50px;
+    font-size: 32px;
+    text-align: center;
+    color: #222;
+    padding-top: 50px;
+}
+.contact ul {
+    display: inline-block;
+    text-align: left;
+    font-size: 16px;
+    width: 480px;
+}
+.contact ul .info-text {
+    line-height: 22px;
+    margin-bottom: 30px;
+    color: #333;
+}
+.contact .address-info{
+    margin-top: 30px;
+}
+.contact .address-info ul .address {
+    line-height: 22px;
+    margin-bottom: 30px;
+    color: #333;
+}
+.contact .detail {
+    border-bottom: 1px solid #cdcdcd;
+}
+
+.information {
+    width: 630px;
+}
+.information .detail{
+    width: 480px;
+    float: right;
+    padding: 27px 0;
+    font-size: 16px;
+    overflow: hidden;
+}
+.information .detail div div {
+    height: 45px;
+    float: left;
+    border: 1px solid #dcdcdc;
+    border-radius: 4px;
+    width: 40%;
+    margin-bottom: 20px;
+}
+.information .detail input {
+    display: block;
+    height: 25px;
+    line-height: 14px;
+    padding: 10px;
+    border: none;
+}
+
+.information .detail div .contacts{
+    margin-right: 2%;
+}
+.information .detail textarea {
+    display: block;
+    width: 84%;
+    height: 60px;
+    /*line-height: 22px;*/
+    padding:10px;
+    box-sizing: border-box;
+    background-color: #fff;
+    border: 1px solid #d3d3d3;
+    border-radius: 4px;
+    resize:none;
+    margin-bottom: 25px;
+    outline: none;
+}
+.information .detail p{
+    color: #fe2727;
+    margin-top: 10px;
+    text-align: right;
+    margin-bottom: 30px;
+}
+.information .detail .btn-color {
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    cursor: pointer;
+}
+.bnt-info{
+    color: #aaa;
+    margin-top: 10px;
+    font-size: 15px;
+}
+

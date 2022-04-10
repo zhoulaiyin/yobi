@@ -1,0 +1,450 @@
+* {
+    color: #222;
+    font-size: 14px;
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+.border5{
+    border-radius: 5em!important;
+}
+body {
+    background: #fff;
+}
+html,body,.content,#wrapper,.main {
+    height: 100%;
+}
+#wrapper {
+    padding: 0;
+    margin: 0;
+}
+.left-sider{
+    position: fixed;
+    float: left;
+    background-color: #313131;
+    width: 15%;
+    height:100%;
+    overflow: hidden;
+}
+
+.right-sider{
+    background: #fff;
+    float: right;
+    width: 85%;
+    height: 100%;
+}
+/*头部*/
+.top-title {
+    position: fixed;
+    top: 0;
+    padding: 0 20px;
+    width: 85%;
+    height: 58px;
+    box-shadow: 0 0 6px 6px rgba(0,0,0,.05);
+    line-height: 58px;
+    z-index: 22;
+    background: #fff;
+}
+.top-title h6 {
+    font-size: 18px;
+    line-height: 58px;
+}
+.top-title .input-box {
+    position: relative;
+    margin-top: 11px;
+    width: 244px;
+    height: 36px;
+}
+.top-title .input-box .form-control {
+    border-radius: 20px;
+    padding-right: 40px;
+}
+.top-title .input-box i {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40px;
+    height: 34px;
+    background: url("/images/webi/bi/icon-search.png") no-repeat center center;
+    cursor: pointer;
+}
+.thumb{
+    width: 38px;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+.thumb img{
+    width: 38px;
+    height: 38px;
+    margin: -8px 15px 8px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+.top-title2 .data-source{
+    display: inline-block;
+    min-width: 130px;
+}
+.data-source .data-source-option{
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    border-radius: 4px;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background: url(/images/webi/biedit/icon-arr3.png) no-repeat scroll 107px center #fff;
+    border: 1px solid #ccc !important;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+.left-button .source-name-remind{
+    display: inline-block;
+    margin-top: -3px;
+    border: none;
+    color: #70a7ff;
+    padding: 0 12px;
+    width: auto;
+    cursor: pointer;
+}
+.left-button span{
+    font-size: 16px;
+}
+/****************左侧列表*******************/
+.left-list {
+    top: 58px;
+    left: 0;
+    height: 100%;
+    z-index: 2;
+    width: 109%;
+    height: 100%;
+    overflow-y: scroll;
+    margin-bottom: 20%;
+}
+.left-list .add-list {
+    padding: 14px 18px;
+    height: 66px;
+    cursor: pointer;
+}
+.add-list span{
+    display: block;
+    text-align: left;
+    border-bottom: 1px dashed #70a7ff;
+    font-size: 20px;
+    line-height: 36px;
+    color: #fff;
+}
+.add-list span i{
+    text-align: right;
+    font-size: 24px;
+    line-height: 36px;
+    color: #fff;
+    float: right;
+}
+.left-list ul li {
+    height: 48px;
+    line-height: 48px;
+    padding-left: 20px;
+    cursor: pointer;
+}
+.left-list ul li.cur-list {
+    padding-left: 18px;
+    border-left: 2px solid #70a7ff;
+    background: #70a7ff;
+}
+.left-list ul li  a,.dropdown-toggle i {
+    color: #fff;
+}
+.group-content{
+    margin-bottom: 24%;
+}
+/**主题内容**/
+.main-cont {
+    padding: 20px 20px;
+}
+.main-cont ul {
+    padding: 10px;
+    overflow: hidden;
+}
+.main-cont ul li {
+    position: relative;
+    padding: 30px 0;
+    margin-right: 15px;
+    width: 160px;
+    height: 160px;
+    text-align: center;
+}
+.main-list>ul>li{
+    float: left;
+}
+.main-cont ul li.add-form {
+    cursor: pointer;
+}
+.main-cont ul li p {
+    margin-top: 10px;
+    font-size: 12px;
+    color: #4e4e4e;
+}
+.main-cont ul li .oper-icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40px;
+    height: 32px;
+    cursor: pointer;
+}
+.main-cont ul li .oper-box {
+    position: absolute;
+    top: 30px;
+    right: -55px;
+}
+.main-cont ul li .oper-box a {
+    display: block;
+    width: 74px;
+    height: 28px;
+    line-height: 28px;
+    font-size: 12px;
+    color: #4e4e4e;
+    background: #fff;
+}
+.main-cont ul li .oper-box a:hover {
+    color: #fff;
+    background: #70a7ff;
+}
+
+.main-cont ul li ul, .content ul li ul{
+    position: absolute;
+    top: 40px;
+    right: -16px;
+    z-index: 9;
+    background: #fff;
+    border: 1px solid #eeeeee;
+}
+
+.main-cont ul li ul li, .content ul li ul li{
+    width:auto;
+    height: auto;
+    padding: 10px 0;
+    margin: 0;
+    text-align: center;
+}
+
+
+.layer-source-box{
+    width: 100%;
+    height: 100%;
+    background-color: #ebebef0f;
+}
+.layer-source-box .source-header{
+    width: 100%;
+    height: 40px;
+    margin: 0 auto;
+    border-bottom: 1px solid #e6e6e6;
+    background-color: #FBFBFB;
+}
+.layer-source-box .source-header .source-header-name{
+    width: 10%;
+    float: left;
+    margin-top: 7px;
+    margin-left: 1.2%;
+}
+.layer-source-box .source-header .source-close{
+    width: 4%;
+    float: right;
+    margin-top: 1%;
+    cursor: pointer;
+    font-size: 20px;
+}
+.left-source{
+    width: 70%;
+    height: 100%;
+    background-color: #fff;
+    float: left;
+    border-radius: 4px;
+}
+.left-source td{
+    text-align: center;
+}
+.left-source .source-table{
+    width: 98%;
+    margin: 22px 13px;
+    border-radius: 4px;
+}
+.left-source .operation-source{
+    width: 22%;
+}
+.left-source .operation div{
+    cursor: pointer;
+    float: left;
+    margin: 5px 3px;
+}
+.right-source{
+    width: 29%;
+    height: 100%;
+    float: right;
+    border-radius: 4px;
+    margin: 10px 5px 0 0;
+    background-color: #fff;
+
+}
+.ant-right-upload{
+    width: 92%;
+    margin: 2% 4%;
+    border-radius: 4px;
+    height: 100%;
+}
+.ant-right-upload .layui-form-item{
+    margin-top: 2px;
+}
+.layer-source-box .source-content{
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
+    padding-top: 1%;
+}
+.layer-source-box .layui-form-label{
+    padding: 8px 5px;
+}
+.upload-source{
+    border: 1px dashed #70a7ff;
+    height: 260px;
+}
+.upload-source-div{
+    border: 1px dashed #70a7ff;
+}
+.upload-source .upload-button,.upload-source-div .upload-button{
+    width: 10%;
+    margin: 25px auto;
+}
+.upload-source i,.upload-source-div i{
+    font-size: 50px;
+}
+.upload-source p,.upload-source-div p{
+    text-align: center;
+    font-size: 16px;
+}
+.table-name p{
+    margin-top: 10px;
+    color: #5cd489;
+}
+.upload-source .text-one,.upload-source-div .text-one{
+    font-size: 14px;
+    color: #6A6A6A;
+}
+.right-source button{
+    display:block !important;
+    width: 100%;
+    margin-bottom: 5px;
+}
+.layer-table-field{
+    border-radius: 5%;
+    width: 350px;
+    height: 300px;
+    z-index: 4;
+}
+.layer-table{
+    width: 760px;
+    height: 480px;
+    border-collapse: collapse;
+    box-sizing: border-box;
+}
+.layer-table,.layer-table tr th, .layer-table tr td {
+    text-align: center;
+    border:1px solid #ccc;
+    height: 30px;
+    line-height: 30px;
+}
+.layer-table .table-header{
+    background-color: #F7F7F7;
+    height: 55px;
+}
+.modal-content input{
+    border: 1px solid transparent;
+    background-color: #F7F7F7;
+    padding-left: 10px;
+    border-radius: 4px;
+}
+.modal-content .modal-title input{
+    background-color: #fff;
+}
+.modal-content input:hover{
+    border: 1px solid #ccc;
+}
+.modal-content .modal-body{
+  box-sizing: content-box;
+    height: 420px;
+}
+.operation .layui-icon-upload-circle{
+    width: 16px;
+    height: 20px;
+}
+.operation .layui-icon-about {
+    font-size: 18px;
+}
+.layui-icon-upload-circle .update-file{
+    width: 16px;
+    height: 20px;
+}
+.modal-content .modal-page{
+    height: 32px;
+    padding: 5px 10px;
+
+}
+.modal-content .source-table-page{
+    text-align: center;
+}
+.modal-content .source-table-page .layui-laypage{
+    margin: 5px 0;
+}
+.layui-layer-wrap{
+    width: 450px;
+    margin: 15px auto;
+}
+.upload-source-div{
+    width: 10%;
+    margin: 25px auto;
+}
+.layer-source-table,.layer-source-field{
+    width: 98%;
+}
+.layer-source-table tr{
+   text-align: center;
+}
+.layer-source-table .table-list-name{
+    text-align: left;
+}
+.upload-source-div .file{
+    margin: 0 auto;
+    width: 400px;
+    height:300px;
+    opacity:0;
+    filter:alpha(opacity=0);
+    position: absolute;
+}
+
+.layer-sql-source-update .test-button{
+    width: 60px;
+    color: #4476A7;
+    cursor: pointer;
+}
+.modal-body .modal-table-box{
+    overflow-x: auto;
+    overflow-y: hidden;
+    height: 385px;
+}
+.link_content_list .source-table-name{
+    height: 40px;
+    float: left;
+    width: 70%;
+}
+.link_content_list .source-table-choose,.link_content_list  .source-table-detail{
+    float: right;
+    margin-right: 5%;
+    cursor: pointer;
+}

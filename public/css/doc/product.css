@@ -1,0 +1,182 @@
+/*公共部分*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* 全局 */
+ol, ul ,li{list-style: none;}
+fieldset,img {border: 0;}
+table {border-collapse:collapse;border-spacing:0;}
+body {color:#222;font-family: "微软雅黑","宋体",Arial,sans-serif;font-size: 13px;overflow-x:hidden;overflow-y:auto; }
+
+/* 公共其他 */
+.hide {display: none;}
+.tar {text-align: right;}
+.tal {text-align: left;}
+.tac {text-align: center;}
+.form-group,.search-box, select{font-size:14px;}
+.nav,.nav-tabs{ font-size:14px;}
+.fl{float:left;}
+.fr{float:right;}
+
+/* 字体颜色 */
+.red, .red_star {color: #ff0000;}
+.gray {color: #cccccc;}
+.cyan {color: #066601;}
+
+/* 宽度 */
+.w85  {width: 85px;}
+.w100 {width: 100px;}
+.w130 {width: 130px;}
+.w150 {width: 150px;}
+.w300 {width: 300px;}
+.w400 {width: 400px;}
+.w500 {width: 500px;}
+
+/* 间距 */
+.mt5{margin-top:5px;}
+.mr5{margin-right:5px;}
+.mb5{margin-bottom:5px;}
+.ml5{margin-left:5px;}
+.pt5{padding-top:5px;}
+.pr5{padding-right:5px;}
+.pb5{padding-bottom:5px;}
+.pl5{padding-left:5px;}
+
+.mt10{margin-top:10px;}
+.mr10{margin-right:10px;}
+.mb10{margin-bottom:10px;}
+.ml10{margin-left:10px;}
+
+.pt10{padding-top:10px;}
+.pr10{padding-right:10px;}
+.pb10{padding-bottom:10px;}
+.pl10{padding-left:10px;}
+.mt20{margin-top:20px;}
+.mt50{margin-top:50px;}
+/* 水平位置 */
+.tar {text-align: right;}
+.tal {text-align: left;}
+.tac {text-align: center;}
+
+/* 手型样式 */
+.pointer {cursor: pointer;}
+
+/* bootstrap修改 */
+.form-horizontal .form-group {margin-right: 0;margin-left: 0;}
+.form-control[readonly]{cursor:pointer;background-color:#fff;}
+a.list-group-item.active, a.list-group-item.active:hover, a.list-group-item.active:focus {
+    background-color:#e6e7ec;
+    border-color: #e6e7ec;
+    color: #555555;
+    z-index:auto;
+}
+.nav>li>a {
+    color: #5e5e5e;
+}
+
+/*内容样式*/
+.app-aside{
+    width: 210px;
+    position: absolute;
+    top:0;
+    bottom:0;
+    height: 100%;
+    overflow-y: auto;
+    background:#f3f3f3;
+
+}
+.logo{
+    background:#444;
+    text-align: center
+
+}
+
+.accordion {
+    width: 100%;
+    max-width: 210px;
+}
+
+.accordion .link {
+    cursor: pointer;
+    display: block;
+    line-height: 35px;
+    padding: 0 0 0 35px;
+    color: #4D4D4D;
+    font-size: 14px;
+    position: relative;
+}
+
+.accordion li:last-child .link {
+    border-bottom: 0;
+}
+.accordion li{
+    cursor: pointer;
+}
+.accordion li .link i {
+    position: absolute;
+    top: 12px;
+    left: 20px;
+    font-size: 18px;
+    color: #595959;
+    background:url(https://www.dscmall.cn/book/image/sanjiao.png) 0 0 no-repeat;
+    width: 20px;
+    height:10px
+}
+
+.accordion li.open .link i{
+    background:url(https://www.dscmall.cn/book/image/sanjiao.png) 0 -10px no-repeat;
+}
+.submenu {
+    display: none;
+    font-size: 14px;
+}
+
+.submenu li {
+    line-height: 35px
+}
+.submenu a {
+    display: block;
+    text-decoration: none;
+    color: #666;
+    position: relative;
+    padding-left: 55px
+}
+.submenu li a i {
+    position: absolute;
+    top: 12px;
+    left: 40px;
+    font-size: 18px;
+    color: #595959;
+    background:url(https://www.dscmall.cn/book/image/sanjiao.png) 0 0 no-repeat;
+    width: 20px;
+    height:10px
+}
+.submenu li.current a i {
+    background:url(https://www.dscmall.cn/book/image/sanjiao.png) 0 -10px no-repeat;
+}
+
+.thirdSon{
+    display: none
+}
+.thirdSon li {
+    line-height: 30px;
+    padding-left:70px;
+    font-size: 12px;
+    color:#666;
+}
+
+.thirdSon li:hover{
+    color: #ff0000;
+}
+.submenu li.current .thirdSon li.active{
+    color:#17abde
+}
+.main-container{
+    margin-left: 210px;
+    overflow: auto
+}
+.main-content{
+    margin:10px;
+}

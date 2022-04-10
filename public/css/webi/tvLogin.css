@@ -1,0 +1,151 @@
+*{
+    font-family: Microsoft YaHei;
+    padding: 0;
+    margin: 0;
+}
+
+.login-content button {
+    margin-top: 25px;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    background: #5cd48a;
+}
+.logoin-box-pc .login-content button{
+    font-size: 14px;
+    line-height: 55px;
+    height: 55px;
+}
+.login-box-tv{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.wrapper-ds{
+    position: absolute;
+}
+.wrapper-ds .login-box-tv{
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+.wrapper-ds .login-box-tv .login-box-tv{
+    margin: 5% auto;
+    height: auto;
+}
+.wrapper-ds .login-box-tv .logoin-input {
+    margin-top: 5% !important;
+}
+.wrapper-ds .login-box-tv .login-content button{
+    margin-top: 5% !important;
+}
+.login-tv{
+    height:100%; position:relative;
+    overflow-y:scroll;flex: auto;
+}
+.layui-btn .layui-btn-normal{
+    margin-top: 4%;
+}
+.login-box-tv .login-content button{
+    margin-top: 8%;
+    font-size: 30px;
+    /*line-height: 60px;*/
+    height: 60px;
+}
+.login-content input[name="login-name"],.login-content input[name="password"] {
+    width: 250px;
+    border: none;
+    outline:none;
+    font-size: 14px;
+    color: #444;
+    margin-left: 5px;
+    text-align: left;
+    border-radius: 2px;
+}
+.login-box-tv .login-content input[name="login-name"],.login-box-tv .login-content input[name="password"] {
+    font-size: 20px;
+}
+.wrapper{
+    background:url("/images/webi/wrapper.jpg") no-repeat;
+    background-size:cover;
+    width: 100%;
+    height: 100%;
+    position:absolute;
+}
+.logoin-box-pc{
+    position: fixed;
+    left: 50%;
+    top:15%;
+    width: 50%;
+}
+.login-box-tv .login-content{
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+.login-box-tv .logoin-box{
+    display: table-cell;
+    vertical-align: middle;
+}
+.login-box-tv .logoin{
+    border-radius: 15px;
+    width: 70%;
+    min-height: 500px;
+    /*max-width: 600px;*/
+    min-width: 320px;
+    background: #fff;
+    margin: 0 auto;
+    padding: 35px 5%;
+    box-sizing: border-box;
+}
+.logoin-box-pc .logoin{
+    width: 364px;
+    height: 360px;
+    background: #fff;
+    margin: 0 auto;
+    border-radius: 15px;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    padding: 25px 28px;
+}
+.logoin-box-pc .logoin img{
+    width: 145px;
+    height: 50px;
+    margin: 0 auto;
+    display: block;
+}
+.login-box-tv .logoin img{
+    width: 25%;
+    margin: 20px auto;
+    display: block;
+}
+.logoin-box-pc .logoin-input{
+    border: 1px solid #ddd;
+    height: 45px;
+    margin-top: 45px;
+    line-height: 45px;
+}
+.login-box-tv .logoin-input .layui-input{
+    height: 60px;
+    line-height: 60px;
+}
+.login-box-tv .logoin-input{
+    border: 1px solid #ddd;
+    margin-top: 4%;
+}
+.logoin-input span{
+    font-size: 16px;
+    color: #a9a8a8;
+    padding: 0 10px;
+}
+.logoin-input input:-webkit-autofill,.logoin-input input:-webkit-autofill{
+    background-color: rgb(250, 250, 250) !important;
+}
+.logoin p{
+    margin-left: 10px;
+    margin-top: -5px;
+    color:red;
+    font-size: 14px;
+}

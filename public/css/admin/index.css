@@ -1,0 +1,278 @@
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, u, i, dl, dt, dd, ol, ul, li{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+ol,ul,li { list-style: none; padding: 0; margin: 0;}
+a { color: #38f;cursor: pointer;text-decoration:none;}
+.over{overflow: hidden;}
+body { margin:0;font-size: 12px;font-family: Helvetica, STHeiti, "Microsoft YaHei", Verdana, Arial, Tahoma, sans-serif;  }
+.global-content{ position: relative;background: #f2f2f2;}
+/** 左主导航 **/
+.app-sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 210px;
+    -webkit-box-shadow: 0 0 1px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 0 1px 0 rgba(0,0,0,0.2);
+    z-index: 99;
+}
+/** 左导航内容 **/
+.app-first-sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: #444;
+}
+.app-first-sidebar .team-logo-wrap {
+    display: block;
+    width: 100px;
+    height: 63px;
+    overflow: hidden;
+}
+.app-first-sidebar .team-logo {
+    background-image: url(/images/admin/logo.png);
+    background-position: 50% 50%;
+    margin: 15px auto 0;
+    width: 68px;
+    height: 40px;
+    background-size: cover;
+}
+.app-first-sidebar nav {
+    padding: 0 0 60px 0;
+    width: 100px;
+}
+.app-first-sidebar nav li {
+    font-size: 14px;
+    height: 35px;
+    line-height: 35px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.app-first-sidebar nav .add-margin{
+    margin-top: 44px;
+}
+.app-first-sidebar nav .active{
+    background: #f8f8f8;
+}
+.app-first-sidebar nav .active a{
+    color: #333;
+}
+.app-first-sidebar nav .hover .sidebar-icon-dashboard{
+    background-position: 0 0;
+    opacity: .5;
+}
+.app-first-sidebar nav li a {
+    color: #CACACA;
+    display: block;
+    padding-left: 22px;
+}
+
+.app-first-sidebar nav li a img {
+    position: relative;
+    top: -2px;
+}
+
+/* 左底导航弹层 */
+.app-user-info {
+    position: fixed;
+    bottom: 0;
+    color: #e5e5e5;
+    padding: 10px 0;
+    background: #535353;
+    z-index: 100;
+    width: 100px;
+}
+.app-user-info:hover > .user-dropdown{
+    display: block;
+    z-index: 101;
+}
+.app-user-info span.user-name {
+    width: 76px;
+    display: block;
+    line-height: 30px;
+    padding: 0 12px;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    cursor: pointer;
+}
+.app-user-info .user-dropdown {
+    background: #fff;
+    display: none;
+    position: absolute;
+    bottom: 45px;
+    left: 10px;
+    color: #333;
+    width: 145px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 2px;
+    -webkit-box-shadow: 0 1px 4px 0 rgba(0,0,0,0.4);
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,0.4);
+}
+.app-user-info .user-dropdown-meta {
+    padding: 10px 20px;
+    line-height: 24px;
+    background: #f8f8f8;
+    border-radius: 2px 0 0 2px;
+}
+.app-user-info .user-dropdown-meta div {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.app-user-info .user-dropdown-select {
+    padding: 10px 0;
+    line-height: 30px;
+}
+.app-user-info .user-dropdown-select a {
+    display: block;
+    color: #666;
+    padding: 0 20px;
+    line-height: 30px;
+}
+.app-user-info .user-dropdown-select a:hover{
+    background: #38f;
+    color: #fff;
+}
+.app-user-info .user-dropdown-select a.new-select {
+    color: #FF4444;
+}
+.app-user-info .user-dropdown-select a.new-select:hover{
+    color: #fff;
+}
+.app-user-info .user-dropdown::after {
+    content: ' ';
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: 28px;
+    border: 6px solid #fff;
+    border-color: #fff transparent transparent transparent;
+}
+
+/* 右导航 */
+.app-second-sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 100px;
+    width: 110px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: #fff;
+    overflow: auto;
+}
+.app-second-sidebar .second-sidebar-title {
+    padding-left: 15px;
+    font-size: 14px;
+    height: 50px;
+    line-height: 50px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-bottom: 1px solid #f2f2f2;
+}
+.app-second-sidebar nav {
+    padding: 5px;
+}
+.app-second-sidebar nav li {
+    font-size: 14px;
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 2px;
+}
+.app-second-sidebar nav li.active {
+    background: #f8f8f8;
+}
+.app-second-sidebar nav li a {
+    color: #666;
+    display: block;
+    padding: 0 10px;
+}.app-second-sidebar nav li.active a{
+    color: #333;
+ }
+.app-second-sidebar nav li a:hover{
+    color: #38f;
+}
+
+/* 详情内容 */
+.container {
+    padding-right: 0;
+    padding-left: 0;
+    background: #f2f2f2;
+    width: auto;
+    margin: 0 0 0 210px;
+    -webkit-transition: margin-right 0.5s;
+    -moz-transition: margin-right 0.5s;
+    transition: margin-right 0.5s;
+    overflow: hidden;
+}
+.js-app-third-sidebar {
+    position: relative;
+    height: 50px;
+    min-width: 750px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: #fff;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 0 100px 0 5px;
+    -webkit-transition: padding-right 0.5s;
+    -moz-transition: padding-right 0.5s;
+    transition: padding-right 0.5s;
+}
+.ui-nav li{
+    float: left;
+    height: 50px;
+    line-height: 50px;
+}
+.ui-nav li a {
+    padding: 0 20px;
+    min-width: 0;
+    border: none;
+    background: transparent;
+    font-size: 14px;
+    color: #666;
+}
+.ui-nav li a:hover{
+    color: #38f;
+}
+.ui-nav li span {
+    display: inline-block;
+}
+.app {
+    width: 100%;
+    float: left;
+}
+.container .app-inner {
+    margin: 10px;
+    padding: 15px;
+    min-width: 750px;
+    min-height: 500px;
+    -webkit-box-shadow: 0 0 1px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 0 1px 0 rgba(0,0,0,0.2);
+}
+.app-inner {
+    min-height: 800px;
+    margin: 0 0 0 150px;
+    padding-bottom: 60px;
+    background-color: #fff;
+}

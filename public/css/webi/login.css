@@ -1,0 +1,125 @@
+*{
+    font-family: Microsoft YaHei;
+    padding: 0;
+    margin: 0;
+}
+.login-content button {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    background: #5cd48a;
+}
+.logoin-box-pc .login-content button{
+    line-height: 55px;
+    height: 55px;
+}
+.login-box-wap .login-content button{
+    margin-top: 5%;
+    font-size: 18px;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    height: 45px;
+}
+.login-wap .login-content{
+    margin: 5px 10px;
+    min-height: 260px;
+}
+.login-content input[name="login-name"],.login-content input[name="password"] {
+    width: 98%;
+    border: none;
+    outline:none;
+    font-size: 14px;
+    color: #444;
+    margin-left: 5px;
+    text-align: left;
+    border-radius: 2px;
+}
+.login-box-wap .logoin > div{
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.login-box-wap .login-content input[name="login-name"],.login-box-wap .login-content input[name="password"] {
+    min-height: 45px;
+}
+.wrapper{
+    background:url("/images/webi/wrapper.jpg") no-repeat;
+    background-size:cover;
+    width: 100%;
+    height: 100%;
+    position:absolute;
+}
+.logoin-box-pc{
+    position: fixed;
+    left: 50%;
+    top:15%;
+    width: 50%;
+}
+.login-box-wap{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    margin:32% auto;
+}
+.login-box-wap .logoin{
+    width: 97%;
+    height: 80%;
+    background: #fff;
+    margin: 0 auto;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    box-sizing: border-box;
+}
+.logoin-box-pc .logoin{
+    width: 364px;
+    height: 360px;
+    background: #fff;
+    margin: 0 auto;
+    border-radius: 15px;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+}
+.logoin-box-pc .logoin img{
+    width: 145px;
+    height: 50px;
+    margin: 0 auto;
+    display: block;
+}
+.login-box-wap .logoin img{
+    width: 195px;
+    height: 70px;
+    margin: 15px auto;
+    display: block;
+    box-sizing: border-box;
+}
+.logoin-box-pc .logoin-input{
+    border: 1px solid #ddd;
+    height: 45px;
+    margin: 40px 20px;
+    line-height: 45px;
+}
+.login-box-wap .logoin-input{
+    border: 1px solid #ddd;
+    margin: 5% 0 8%;
+}
+.logoin-input span{
+    font-size: 16px;
+    color: #a9a8a8;
+    padding: 0 10px;
+}
+.logoin-input input:-webkit-autofill,.logoin-input input:-webkit-autofill{
+    background-color: rgb(250, 250, 250) !important;
+}
+.logoin p{
+    margin-left: 10px;
+    margin-top: -5px;
+    color:red;
+    font-size: 16px;
+}
+.login-box-wap .logoin p{
+    font-size: 16px;
+}

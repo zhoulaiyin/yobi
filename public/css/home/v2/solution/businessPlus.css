@@ -1,0 +1,99 @@
+/** banner **/
+.banner .bg-img{
+    width: 100%;
+    display: block;
+}
+.business-con{
+    padding-top: 50px;
+}
+.business-con h1{
+    font-size: 38px;
+    text-align: center;
+    font-weight: normal;
+    color: #2a2a2a;
+}
+.business-con  .main-img {
+    padding-top: 50px;
+    max-width: 970px;
+    margin: 0 auto;
+}
+.business-con  .main-img img{
+    max-width: 100%;
+}
+.business-list{
+    padding:40px 0 90px;
+}
+.business-list .icon img{
+    width: 98px;
+    height: 98px;
+}
+.business-list ul li{
+    width: 33%;
+    padding: 12px 13px 20px;
+    box-sizing: border-box;
+    float: left;
+}
+.business-list ul li .box{
+    width: 100%;
+    height: auto;
+    box-shadow: 6px 6px 20px #e5e5e5;
+    text-align: center;
+    padding: 45px 0 10px 0;
+}
+.business-list ul li .box .title{
+    font-size: 16px;
+    color: #444444;
+    height: 35px;
+    line-height: 36px;
+    padding: 15px 0 8px 0;
+}
+.business-list ul li .box .text{
+    color: #666666;
+    font-size: 14px;
+    line-height: 25px;
+    height: 75px;
+}
+@media screen and (max-width: 959px) {
+    .business-con {
+        padding-top: 40px;
+    }
+    .business-list ul li .box .title{
+        font-size: 14px;
+    }
+    .business-list ul li .box .text{
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .business-con h1{
+        font-size: 32px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .business-con{
+        padding-top: 30px;
+    }
+}
+@media screen and (max-width: 640px) {
+    .business-list ul li .box .text{
+        height: 100px;
+    }
+    .business-con{
+        padding-top: 50px;
+    }
+    .business-con{
+        padding-top: 20px;
+    }
+    .business-list{
+        padding: 20px 0 30px;
+    }
+    .business-list ul li{
+        width: 50%;
+        padding: 6px 6px 12px;
+    }
+    .business-list ul li .box{
+        box-shadow: 3px 4px 6px #e5e5e5;
+    }
+    .business-con h1{
+        font-size: 20px;
+    }
+}

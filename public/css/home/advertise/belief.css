@@ -1,0 +1,277 @@
+.banner a{
+    background: url("/images/home/advertise/belief_ban.jpg") no-repeat center center;
+    height: 270px;
+    display: block;
+}
+h3{
+    color: #333;
+}
+h3.title {
+    height: 50px;
+    font-size: 32px;
+    text-align: center;
+    color: #222;
+    margin-bottom: 66px;
+}
+.title .cur-border {
+    border-bottom: 2px solid #0f7bd5;
+    display: inline-block;
+}
+
+.oto {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+}
+.oto .icons {
+    overflow: hidden;
+    display: inline-block;
+    margin: auto;
+}
+.oto .icons li {
+    float: left;
+    width: 90px;
+    margin-right: 56px;text-align: center;
+}
+.oto .icons li.nomargin {
+    margin: 0;
+}
+.oto .icons li img {
+    display: block;
+}
+.oto .icons li span {
+    height: 64px;
+    line-height: 64px;
+}
+.oto .manage {
+    overflow: hidden;
+    display: inline-block;
+}
+.oto .manage .list {
+    width: 500px;
+    height: 408px;
+    position: relative;
+    float: left;
+
+}
+.oto .manage .margin-right {
+    margin-right: 230px;
+}
+.oto .manage .list .main {
+    width: 500px;
+    height: 260px;
+    background-color: #fff;
+    border: 1px solid #eee;
+    box-sizing: border-box;
+    padding: 42px 22px;
+
+}
+.oto .manage .main h3 {
+    color: #333;
+    font-size: 24px;
+    height: 34px;
+}
+.oto .manage .main p {
+    color: #858585;
+    font-size: 15px;
+    height: 80px;
+    line-height: 32px;
+    overflow: hidden;
+    text-align: left;
+}
+.oto .manage .btn span{
+    float: left;
+    width: 90px;
+    height: 50px;
+    line-height: 50px;
+    color: #fff;
+    border-radius: 4px;
+    margin-right: 12px;
+}
+.oto .manage .btn i {
+    line-height: 50px;
+}
+.oto .manage .top i {
+    width: 13px;
+    height: 13px;
+    display: block;
+    border-radius: 100px;
+    border: 1px solid #888e92;
+    margin: auto;
+
+}
+.oto .manage .top span {
+    display: block;
+    width: 1px;
+    height: 56px;
+    background-color:#eee ;
+    margin:  6px auto 28px;
+}
+
+.touch {
+    padding: 50px 0;
+}
+.touch .introduce {
+    overflow: hidden;
+    padding-bottom: 66px;
+    border-bottom: 1px dashed #ddd;
+}
+.touch .introduce ul {
+    float: left;
+    width: 55%;
+    overflow: hidden;
+}
+.touch .introduce li {
+    float: left;
+    width: 32%;
+    margin-right: 1%;
+}
+.touch .introduce img {
+    display: block;
+}
+.touch .introduce div {
+    float: right;
+    width: 45%;
+    margin-top: 70px;
+    line-height: 34px;
+    font-size: 15px;
+}
+
+.touch .order {
+    padding-top: 72px;
+    overflow: hidden;
+}
+.touch .order .wordes {
+    float: left;
+    padding: 24px 42px;
+    line-height: 34px;
+    font-size: 16px;
+
+}
+
+.touch .order .apply {
+    float: right;
+}
+
+.possible {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+}
+.possible h3.title {
+    margin-bottom: 0;
+}
+.top-words {
+    font-size: 24px;
+    line-height: 72px;
+    height: 105px;
+    text-align: center;
+}
+.possible ul {
+    overflow: hidden;
+}
+.possible ul li {
+    float: left;
+    width:30%;
+    box-sizing: border-box;
+}
+.possible ul .arrow {
+    width: 5%;
+    text-align: center;
+    height: 442px;
+    line-height: 550px;
+    float: left;
+}
+.possible li .icons {
+    width: 90px;
+    height: 90px;
+    margin: auto;
+    position: relative;
+    z-index: 100;
+    display: block;
+}
+.possible li .main {
+    height: 442px;
+    background-color: #fff;
+    border: 1px solid #eee;
+    border-radius: 2px;
+    margin-top: -45px;
+    padding: 90px 16px 20px 16px;
+    box-sizing: border-box;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.possible li .main h3 {
+    height: 62px;
+    font-size: 24px;
+}
+
+.add-padding{
+    padding-left: 40px;
+}
+.best {
+    padding: 50px 0;
+}
+.best .top-nav {
+    background-color: #fff;
+    height: 69px;
+    line-height: 69px;
+}
+.best .top-nav li{
+    float: left;
+    width: 32.3%;
+    margin-right: 0.1%;
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+    background-color: #128dee;
+}
+.best .poster li {
+     float: left;
+}
+
+.operation {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+}
+.operation h3.title {
+     margin-bottom: 0;
+}
+.operation .poster {
+    float: left;
+    width: 48%;
+}
+
+.operation .main .icons {
+    width: 90px;
+    height: 90px;
+    margin: auto;
+    position: relative;
+    z-index: 100;
+    display: block;
+}
+.operation .main .inner {
+    height: 442px;
+    background-color: #fff;
+    border: 1px solid #eee;
+    border-radius: 2px;
+    margin-top: -45px;
+    padding: 90px 16px 20px 16px;
+    box-sizing: border-box;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.operation .main .inner h3 {
+    height: 62px;
+    font-size: 24px;
+}
+.operation .arrow {
+    width: 110px;
+    text-align: center;
+    height: 442px;
+    line-height: 550px;
+}
+.operation .poster-right {
+    float: right;
+    padding-top: 134px;
+}

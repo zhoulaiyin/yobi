@@ -1,0 +1,132 @@
+* {
+    color: #222;
+    font-size: 14px;
+}
+
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+body {
+    background: #fff;
+}
+html,body,.content,.main-choose {
+    height: 100%;
+}
+/*头部*/
+.top-title {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 0 20px;
+    width: 100%;
+    height: 58px;
+    box-shadow: 0 0 6px 6px rgba(0,0,0,.05);
+    line-height: 58px;
+    z-index: 22;
+    background: #fff;
+}
+.top-title h6 {
+    font-size: 18px;
+    line-height: 58px;
+}
+.top-title .right-inner {
+    overflow: hidden;
+}
+.right-inner a {
+    float: left;
+    display: block;
+    margin-left: 15px;
+}
+.right-inner .top-btn {
+    margin-top: 13px;
+    width: 100px;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    color: #fff;
+    border-radius: 20px;
+}
+.right-inner .overview {
+    background: #5cd489;
+}
+.right-inner .addBi {
+    background: #70a7ff;
+}
+.right-inner .global-attr {
+    background: #ffa970;
+}
+
+/******侧边栏**********/
+.left-list-choose {
+    position: fixed;
+    /*top: 58px;*/
+    left: 0;
+    height: 100%;
+    width: 157px;
+    background: #313131;
+    z-index: 2;
+    overflow: hidden;
+}
+.left-list-choose .left-list-box{
+    width: 100%;
+    height: 100%;
+}
+.left-list-box ul{
+    width: 109%;
+    height: 100%;
+    overflow-y: scroll;
+}
+.left-list-choose ul li {
+    height: 48px;
+    line-height: 48px;
+    color: #fff;
+    padding-left: 15px;
+    background-repeat: no-repeat;
+    background-position: 13px -48px;
+    cursor: pointer;
+    margin: 0;
+}
+.left-list-choose ul li a{
+    color: #fff;
+}
+.left-list-choose ul li.cur-list {
+    background-color: #70a7ff;
+    border-bottom: none;
+    background-position: 11px 0;
+}
+.left-list-choose ul li.cur-list a {
+    color: #fff;
+}
+.main-choose {
+    padding: 0 0 0 157px;
+    overflow: hidden;
+}
+.main-choose  .chart-list {
+    overflow: hidden;
+    padding: 25px;
+}
+.main-choose .chart-list li {
+    float: left;
+    width: 25%;
+    padding-right: 25px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.main-choose .chart-list li:nth-child(4n) {
+    padding-right: 0;
+}
+.main-choose .chart-list li .chart-inner {
+    height: 170px;
+    border: 1px solid #ddd;
+    overflow: hidden;
+}
+.icon-pic{
+    padding: 10px;
+}
+.icon-pic img{
+    margin-top: -4px;
+    width: 25px;
+}

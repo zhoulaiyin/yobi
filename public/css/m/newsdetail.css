@@ -1,0 +1,26 @@
+body{
+    background: #fff;
+}
+.content{
+    padding: 10px 15px;
+    background: #fff;
+    box-sizing: border-box;
+}
+.content img{
+    vertical-align: middle;
+}
+.detail .detail-top{
+    padding-bottom: 12px;
+    border-bottom: 1px solid #ddd;
+}
+.detail .detail-top p{
+    color: #979797;
+    font-size: 9px;
+}
+.detail .title{
+    font-size: 18px;
+    color: #2e2e2e;
+}
+.detail-content{
+    padding: 10px 0;
+}

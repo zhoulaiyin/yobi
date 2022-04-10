@@ -1,0 +1,149 @@
+img {
+    max-width: 100%;
+}
+.banner {
+    background-color: #0075a9;
+}
+.banner .wrapper1260 {
+    position: relative;
+    height: 270px;
+    overflow: hidden;
+}
+
+.banner img {display: block}
+.banner .try-btn {
+    position: absolute;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 700;
+    top: 180px;
+    left: -13.5%;
+    border: 1px solid #fff;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+.banner .try-btn.cur {
+    left: 13.5%;
+}
+.banner .try-btn:hover {
+    background-color: #4098bf;
+    border-color: #4098bf;
+}
+.banner .words {
+    position: absolute;
+    width: 0;
+    height: 81px;
+    left: 13.5%;
+    top: 65px;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+.banner .words.cur {
+    width: 300px;
+}
+.banner .poster {
+    position: absolute;
+    width: 0;
+    height: 303px;
+    right: -122px;
+    bottom: -68px;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+.banner .poster.cur {
+    width: 610px;
+    right: 122px;
+}
+h3.title {
+    height: 100px;
+    font-size: 32px;
+    text-align: center;
+    color: #222;
+    margin-bottom: 20px;
+}
+
+.introduce .wrapper1260 {
+    position: relative;
+    padding: 50px 0 150px;
+}
+.introduce .big-round {
+    width: 450px;
+    height: 386px;
+    position: relative;
+    margin: auto;
+}
+.introduce .big-round .small-round {
+    width: 380px;
+    height: 332px;
+    position: absolute;
+    left: 50%;
+    top:50%;
+    margin-left: -191px;
+    margin-top: -165px;
+}
+
+.introduce p {
+    position: absolute;
+    font-size: 16px;
+    color: #333;
+    width: 294px;
+}
+.introduce .words1 {
+    top: 10px;
+    left: 227px;
+}
+.introduce .words2 {
+    top: 186px;
+    left: 145px;
+}
+.introduce .words3 {
+    bottom: -22px;
+    left: 188px;
+}
+.introduce .words4 {
+    bottom: -6px;
+    right: 183px;
+}
+.introduce .words5 {
+    top: 176px;
+    right: 97px;
+
+}
+.introduce .words6 {
+    top: 0;
+    right: 189px;
+
+}
+
+.progress {
+    background-color: #f3f3f3;
+    padding: 50px 0;
+}
+.progress .round-out {
+    width: 666px;
+    height: 666px;
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+}
+.progress .round-out span {
+    position: relative;
+    z-index: 100;
+    display: block;
+}
+.progress .round-out .round-in {
+    z-index: 1;
+    width: 73%;
+    display: block;
+    position: absolute;
+    left: 12%;
+    top: 9.5%;
+}

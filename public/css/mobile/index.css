@@ -1,0 +1,222 @@
+html{ font-family: tahoma,arial,'Microsoft YaHei',sans-serif !important;line-height:1;}
+
+html,body, div, address, blockquote, iframe, ul, ol, dl, dt, dd, li, dl, h1, h2, h3, h4, h5, h6, p, pre, table, caption, th, td, form, legend, fieldset, input, button, select, textarea ,em
+{
+    margin:0;
+    padding:0;
+    font:inherit;
+    color:#222;
+}
+html,body, div, address, iframe, ul, ol, dl, dt, dd, li, dl, h1, h2, h3, h4, h5, h6, p, pre, table, th, td,em {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-text-size-adjust: none;
+}
+
+em,h1,h2,h3,h4,h5{
+    font-style: normal;
+    font-weight: normal;
+}
+ol, ul ,li{
+    list-style: none;
+}
+a,input[type=button]{
+    cursor: pointer;
+}
+fieldset,img {
+    border: 0;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+body {
+    color: #222;
+    background: #F4F4F4;
+    min-width: 320px;
+    -webkit-text-size-adjust: none;
+}
+
+@media screen and (min-width: 320px) { body{font-size:14px;} }
+@media screen and (min-width: 360px) { body{font-size:14px;} }
+@media screen and (min-width: 400px) { body{font-size:14px;} }
+
+/*�Զ��幫����ʽ */
+html,body {
+    height: 100%;
+}
+.content{
+    max-width: 800px;
+    min-width: 320px;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    background: url("/images/mobile/kv-bg.jpg") no-repeat right bottom ;
+    background-size: cover;
+    box-sizing: border-box;
+    text-align: center;
+    position: relative;
+}
+/*��ϵ��ʽ*/
+.content .contact {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0 10px;
+    width: 100%;
+    height: 44px;
+    background: hsla(0, 0%, 0%, 0.85);
+    box-sizing: border-box;
+    z-index: 99;
+}
+.content .contact div {
+    max-width: 800px;
+    margin: auto;
+}
+.contact .tel {
+    float: left;
+    width: 115px;
+    height: 44px;
+    padding-top: 14px;
+    box-sizing: border-box;
+}
+.contact .tel img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.contact .qq {
+    float: right;
+    width: 24px;
+    height: 24px;
+    background: #f8b72a;
+    border-radius: 50%;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.contact .qq img {
+    display: block;
+    width: 15px;
+    height: auto;
+    margin: 4px 0 0 4px;
+}
+
+/*�ֲ�����*/
+.swiper-container {
+    margin: 0 auto 0;
+    box-shadow: 0px 15px 25px #aaa;
+    border-radius: 5px;
+}
+.swiper-container section {
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+.swiper-container section img {
+    display: block;
+    opacity: 0;
+}
+.swiper-container-vertical > .swiper-pagination {
+    top: 50%;
+    padding: 5px 0 6px 0;
+    width: 14px;
+    background: hsla(0, 0%, 0%, 0.5);
+    border-radius: 12px;
+    right: 0;
+    display: none;
+}
+.swiper-pagination span.swiper-pagination-bullet {
+    width: 6px;
+    height: 6px;
+    background: #bfbfbf;
+    opacity: 1;
+    margin: 5px auto!important;
+}
+.swiper-pagination span.swiper-pagination-bullet-active {
+    width: 8px;
+    height: 8px;
+    background: #fff;
+}
+.ani{
+    position:absolute;
+}
+.txt{
+    position:absolute;
+}
+@-webkit-keyframes start {
+    0%,30% {opacity: 0;-webkit-transform: translate(0,10px);}
+    60% {opacity: 1;-webkit-transform: translate(0,0);}
+    100% {opacity: 0;-webkit-transform: translate(0,-8px);}
+}
+@-moz-keyframes start {
+    0%,30% {opacity: 0;-moz-transform: translate(0,10px);}
+    60% {opacity: 1;-moz-transform: translate(0,0);}
+    100% {opacity: 0;-moz-transform: translate(0,-8px);}
+}
+@keyframes start {
+    0%,30% {opacity: 0;transform: translate(0,10px);}
+    60% {opacity: 1;transform: translate(0,0);}
+    100% {opacity: 0;transform: translate(0,-8px);}
+}
+.arrow {
+    position: absolute;
+    z-index: 999;
+    width: 100%;
+    animation: start 1.5s infinite ease-in-out;
+    -webkit-animation: start 1.5s infinite ease-in-out;
+}
+.arrow img {
+    display: block;
+    width: 20px;
+    height: auto;
+    margin: 0 auto;
+}
+.section-two,.section-ten {
+    position: relative;
+}
+.section-two .item-list-box {
+    position: absolute;
+    top: 14%;
+    width: 100%;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+.item-list-box .item-list {
+    width: 100%;
+    white-space: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+.item-list li {
+    display: inline-block;
+    margin-left: 8px;
+}
+.item-list li:first-child {
+    margin-left: 0;
+}
+.item-list li a {
+    display: block;
+    width: 35px;
+    height: 35px;
+}
+.item-list li a:first-child {
+    margin-bottom: 10px;
+}
+/*联系方式*/
+.section-ten .contact-box {
+    position: absolute;
+    bottom: 33%;
+    width: 100%;
+    height: 30%;
+}
+.contact-box a {
+    display: block;
+    width: 80%;
+    height: 42.5%;
+    margin: 0 auto;
+}
+.contact-box a:first-child {
+    margin-bottom: 5%;
+}

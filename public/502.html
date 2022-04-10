@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <style>
+        .no-result .img-box {
+            display: block;
+            width: 80%;
+			text-align: center;
+            margin: 0px auto 10px;
+        }
+        .no-result p {
+            color: #999;
+            text-align: center;
+			font-size:50px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="content">
+    <div class="no-result" id="err">
+        <span class="img-box">
+            <img src="/images/m/common/502.png" alt="">
+        </span>
+        <p>服务器出错了~</p>
+    </div>
+</div>
+
+<script src="/libs/jquery/jquery-2.2.2.min.js"></script>
+<script>
+
+var ismobile = false;
+
+var browser = {
+	versions: function () {
+		var u = navigator.userAgent, app = navigator.appVersion;
+		return {
+			trident: u.indexOf('Trident') > -1, //IE内核
+			presto: u.indexOf('Presto') > -1, //opera内核
+			webKit: u.indexOf('AppleWebKit') > -1, //苹果、谷歌内核
+			gecko: u.indexOf('Gecko') > -1 && u.indexOf('KHTML') == -1, //火狐内核
+			mobile: !!u.match(/AppleWebKit.*Mobile.*/) || !!u.match(/AppleWebKit/), //是否为移动终端
+			ios: !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/), //ios终端
+			android: u.indexOf('Android') > -1 || u.indexOf('Linux') > -1, //android终端或者uc浏览器
+			iPhone: u.indexOf('iPhone') > -1 || u.indexOf('Mac') > -1, //是否为iPhone或者QQHD浏览器
+			iPad: u.indexOf('iPad') > -1, //是否iPad
+			webApp: u.indexOf('Safari') == -1 //是否web应该程序，没有头部与底部
+		}; 
+	}(), 
+	language: (navigator.browserLanguage || navigator.language).toLowerCase() 
+}
+      
+ismobile =   browser.versions.mobile;
+
+if (browser.versions.mobile) {
+	var height = $(window).height();
+	height = height/4;
+	$("#err").css("padding-top",height+"px");
+}
+else {
+	$("#err").css("padding-top","5px");
+}
+	
+</script>
+
+</body>
+</html>

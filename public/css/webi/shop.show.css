@@ -1,0 +1,27 @@
+.WeBI_main{
+    width:100%;
+    height:800px;
+    position: relative;
+}
+
+.shop-grid {
+    overflow: hidden;
+    position: absolute;
+    text-align:center;
+}
+.bi-title{
+    box-sizing: border-box;
+    width:100%;
+    height:30px;
+    line-height: 30px;
+    padding: 0 10px;
+    overflow: hidden;
+}
+.bi-chart{
+    box-sizing: border-box;
+    width:100%;
+    height:100%;
+}
+.layui-table-view{
+    margin: 0 !important;
+}

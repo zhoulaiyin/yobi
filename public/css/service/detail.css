@@ -1,0 +1,65 @@
+.back-button{
+    overflow: hidden;
+    margin: 20px 0 5px 0;
+    border-bottom: 1px solid #dad9d9;
+}
+.back-button button {
+    float: right;
+    padding: 7px 20px;
+    background: #f5f5f5;
+    border: 1px solid #d9d9d9;
+    border-radius: 2px;
+    margin: 0 20px 10px 0;
+}
+
+/*详情*/
+.detail-box {
+    font-size: 14px;
+}
+.detail-box .space-line {
+    height: 30px;
+    border-top: 1px solid #ededed;
+}
+.detail-box h3 {
+    font-size: 20px;
+    color: #444;
+    margin: 18px 20px;
+}
+.detail-box ul {
+    width: 720px;
+    margin-left: 20px;
+}
+.detail-box ul li {
+    width: 240px;
+    float: left;
+    color: #999;
+    margin-bottom: 15px;
+}
+.detail-box ul li span {
+    color: #666;
+}
+.detail-box .content-box {
+    clear: left;
+    overflow: hidden;
+    margin: 0 0 50px 20px;
+}
+.detail-box .content-box span {
+    color: #999;
+    float: left;
+}
+.content-box .content {
+    float: left;
+    color: #666;
+    width: 720px;
+    line-height: 25px;
+}
+.content span {
+    clear: left;
+    display: block;
+    color: #999;
+}
+.content a {
+    color: #358fff;
+    margin-left: 5px;
+}
+

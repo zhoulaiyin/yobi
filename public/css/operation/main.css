@@ -1,0 +1,197 @@
+body {
+    height: 100%;
+    overflow: hidden;
+}
+ul,li,p{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+a,a:hover,a:focus,a:active {
+    text-decoration: none;
+    color: #313131;
+}
+
+/*顶部*/
+.top-cont {
+    overflow: hidden;
+    position: relative;
+    height: 60px;
+}
+.top-cont .team-logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 120px;
+    height: 60px;
+    background: #313131;
+    z-index: 2;
+}
+.top-cont .team-logo img {
+    display: block;
+    width: 70px;
+    margin: 6px auto;
+}
+.top-nav {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding-left: 120px;
+    height: 60px;
+    line-height: 60px;
+    background: #fff;
+    overflow: hidden;
+    border-bottom: 1px solid #e7e7e7;
+    float: left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.top-nav .top-nav-list {
+    float: left;
+}
+.top-nav-list ul {
+    overflow: hidden;
+}
+.top-nav-list ul li {
+    float: left;
+    width: 100px;
+    font-weight: 700;
+    color: #313131;
+    text-align: center;
+    background-size: 100% auto;
+}
+.top-nav-list ul li p {
+    padding-left: 25px;
+    cursor: pointer;
+}
+.top-nav-list ul li.selected p {
+    color: #ff5400;
+}
+.top-nav-list ul li .console {
+    background: url(/images/operation/console.png) no-repeat 19px 19px;
+}
+.top-nav-list ul li.selected .console {
+    background-position: 19px -29px;
+}
+.top-nav-list ul li .setting {
+    background: url(/images/operation/setting.png) no-repeat 21px 19px;
+}
+.top-nav-list ul li.selected .setting {
+    background-position: 21px -31px;
+}
+
+.top-nav .member-infor {
+    float: right;
+    margin-right: 10px;
+}
+.top-nav .member-infor ul {
+    overflow: hidden;
+    font-size: 12px;
+    font-weight: 700;
+}
+.top-nav .member-infor ul li {
+    float: left;
+    margin-left: 20px;
+}
+.member-infor ul li span {
+    cursor: pointer;
+}
+.member-infor ul li .mem-name {
+    color: #ff5400;
+    padding-right: 7px;
+}
+
+
+/*主内容*/
+.main-content {
+    overflow: hidden;
+    position: relative;
+}
+.main-content .left-sidebar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 120px;
+    background: #313131;
+    z-index: 99;
+}
+
+.left-sidebar .nav li {
+    padding-left: 22px;
+    height: 48px;
+    line-height: 48px;
+    cursor: pointer;
+}
+.left-sidebar .nav li span {
+    display: block;
+    float: left;
+    color: #ffffff;
+}
+
+.left-sidebar .nav li.cur-nav {
+    color: #fff;
+    background: #ff5400;
+}
+.left-sidebar .nav li .arrow {
+    position: absolute;
+    top: 19px;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-color: transparent #313131 transparent transparent;
+    border-style: solid;
+    border-width: 5px 6px 5px 0;
+}
+.left-sidebar .nav li.cur-nav .arrow {
+    border-color: transparent #fff transparent transparent;
+}
+.main-content .sub-sidebar {
+    width: 120px;
+    height: 100%;
+    border-right: 1px solid #e7e7e7;
+    position: absolute;
+    top: 0;
+    left: 120px;
+    z-index: 99;
+}
+.sub-sidebar ul li {
+    height: 48px;
+    padding: 10px 5px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    cursor: pointer;
+    position: relative;
+}
+.sub-sidebar ul li p {
+    text-align: center;
+    line-height: 28px;
+}
+.sub-sidebar ul li.cur-sub-nav p {
+    border-radius: 3px;
+    background: #eee;
+    color: #313131;
+}
+.main-content .right-sidebar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding-left: 240px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.right-sidebar .main-cont {
+    overflow: hidden;
+    height: 100%;
+}
+
+.nav>li>a {
+    padding: 0;
+}

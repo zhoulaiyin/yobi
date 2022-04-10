@@ -1,0 +1,107 @@
+.banner {
+    background-color: #009dcd;
+    height: 270px;
+}
+.banner .wrapper1260 {
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+}
+.banner img {display: block}
+.banner .try-btn {
+    position: absolute;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 700;
+    top: 180px;
+    left: -14.5%;
+    border:1px solid #fff;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+.banner .try-btn.cur {
+    left: 14.5%;
+}
+.banner .try-btn:hover {
+    background-color: #3fb5d9;
+    border-color: #3fb5d9;
+}
+.banner .words {
+    position: absolute;
+    width: 0;
+    height: 73px;
+    left: 14.2%;
+    top: 75px;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+.banner .cur.words {
+    width: 300px;
+}
+.banner .poster {
+    position: absolute;
+    width: 0;
+    height: 314px;
+    right: 0;
+    top: 57px;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+.banner .poster.cur {
+    width: 440px;
+    right: 99px;
+}
+
+.manage {
+    background-color: #f2f2f2;
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+h3.title {
+    height: 75px;
+    font-size: 32px;
+    text-align: center;
+    color: #222;
+    margin-bottom: 32px;
+}
+.title .cur-border {
+    border-bottom: 2px solid #0f7bd5;
+    display: inline-block;
+}
+
+.detail {
+    padding: 50px 0 10px;
+}
+.detail-list {
+    margin-bottom: 44px;
+    font-size: 16px;
+}
+.detail-list h3 {
+    font-size: 24px;
+    padding-left: 20px;
+    border-left: 4px solid #0f7bd5;
+    height: 24px;
+    line-height: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+.detail-list div {
+    padding: 20px;
+    border: 1px solid #eee;
+    line-height: 34px;
+}
+.detail-list strong {
+    color: #333;
+}
+
+
+
+

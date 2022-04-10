@@ -1,0 +1,436 @@
+.banner {
+    position: relative;
+}
+.banner .bg-img {
+    display: block;
+    width: 100%;
+}
+.banner .wrapper1260 {
+    display: block;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -630px;
+    text-align: center;
+}
+.banner .wrapper1260 img {
+    height: 100%;
+    width: auto;
+}
+h4 {
+    font-size: 26px;
+    color: #2a2a2a;
+    font-weight: normal;
+    margin: 0 0 5% 5%;
+}
+h6 {
+    font-size: 16px;
+    font-weight: normal;
+}
+.bg-gray {
+    background: #f6f6f6;
+}
+.pd50 {
+    padding: 50px 0;
+}
+.tr {
+    text-align: right;
+}
+.cont-inner h4 span {
+    padding-bottom: 5px;
+    border-bottom: 2px solid #2a2a2a;
+}
+.cont-inner p {
+    font-size: 14px;
+}
+/*公司简介*/
+.com-pro .wrapper1260 {
+    overflow: hidden;
+    background: #fff;
+}
+.com-pro .wrapper1260>div {
+    width: 50%;
+    float: left;
+    height: 360px;
+}
+.radio-inner video,.radio-inner video object, .radio-inner video object embed{
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+}
+.com-pro .radio-inner {
+    background: #444;
+    padding: 0 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.com-pro .pause {
+    background: #444 url("/images/home/v2/about/radio.png") no-repeat center center;
+    cursor: pointer;
+}
+.com-pro .pause video,.com-pro .pause video object,.com-pro .pause video object embed{
+    display: none;
+}
+.com-pro .rig-words {
+    padding: 7% 5%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.com-pro .rig-words h4 {
+    margin-left: 0;
+}
+.rig-words p {
+    color: #666;
+}
+
+/*发展历程*/
+.growth-box {
+    background: #fff;
+}
+.growth-box .growth-list {
+    width: 64%;
+    margin: 0 auto;
+}
+.cult-box .cult-1,.cult-box .cult-2 {
+    width: 80%;
+    position: relative;
+}
+.cult-box .cult-1 {
+    margin-bottom: 20px;
+}
+.cult-box .cult-img {
+    width: 100%;
+}
+.cult-img .cult-img-2 {
+    display: none;
+}
+.cult-box .cult-word {
+    width: 37%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
+.cult-1 .cult-word {
+    left: 0;
+}
+.cult-2 .cult-word {
+    right: 0;
+}
+.cult-word .cult-in {
+    height: 50%;
+    padding: 10%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.cult-in .num {
+    width: 12%;
+    margin-right: 8%;
+}
+.cult-in .words {
+    width: 80%;
+}
+.words h6 {
+    color: #2a2a2a;
+    margin-bottom: 15px;
+}
+.words p {
+    color: #666;
+}
+
+
+/*实施交付*/
+.step-box {
+    width: 65%;
+    margin: 0 auto 50px;
+}
+.step-box ul,.manage-box ul,.service-list ul {
+    overflow: hidden;
+}
+.step-box ul li,.manage-box ul li,.service-list ul li{
+    float: left;
+    text-align: center;
+}
+.step-box ul li {
+    width: 25%;
+}
+.step-box ul li .icon {
+    width: 50%;
+    margin: 0 auto;
+}
+.step-box ul li .line {
+    width: 100%;
+    height: 1px;
+    background: #d8d8d8;
+    position: relative;
+    margin: 20px 0;
+}
+.step-box ul li .sircle {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin: -8px 0 0 -8px;
+}
+.step-box ul li p {
+    color: #666;
+    text-align: center;
+}
+.ml0{
+    margin-right: 0;
+}
+.manage-box ul li{
+    width: 16%;
+    height: 180px;
+    margin-left: 4%;
+    background: #f6f6f6;
+    padding: 0 15px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.manage-box ul li .icon-2 {
+    width: 33px;
+    margin: 20px auto 20px;
+}
+.manage-box ul li h6 {
+    color: #01a2fd;
+    margin-bottom: 5px;
+}
+.manage-box ul li p {
+    color: #666;
+}
+
+/*支持服务*/
+.service-list ul li{
+    width: 20%;
+    height: 240px;
+    background: #fff;
+}
+.service-list ul li.service-1 {
+    background: url("/images/home/v2/about/img-1.jpg") no-repeat center center;
+    background-size: cover;
+}
+.service-list ul li.service-3 {
+    background: url("/images/home/v2/about/img-2.jpg") no-repeat center center;
+    background-size: cover;
+}
+.service-list ul li.service-5 {
+    background: url("/images/home/v2/about/img-3.jpg") no-repeat center center;
+    background-size: cover;
+}
+.service-list ul li .icon {
+    width: 30px;
+    margin: 50px auto 20px;
+}
+.service-list ul li h6 {
+    margin-bottom: 5px;
+    color: #fff;
+}
+.service-list ul li p {
+    color: rgba(255,255,255,.5);
+}
+.service-list ul li.service-2  h6 {
+    color: #222;
+}
+.service-list ul li p {
+    color: #888;
+}
+.com-bottom {
+    background: #fff;
+}
+@media screen and (min-width: 960px) and (max-width: 1259px) {
+    .banner .wrapper1260 {
+        margin-left: -480px;
+    }
+    .growth-box .growth-list {
+        width: 74%;
+    }
+}
+@media screen and (max-width: 959px) {
+    .banner .wrapper1260 {
+        margin-left: -370px;
+    }
+    .pd50 {
+        padding: 30px 0;
+    }
+    h4 {
+        font-size: 24px;
+    }
+    .growth-box .growth-list {
+        width: 74%;
+    }
+    .com-pro .wrapper1260 > div {
+        height: 330px;
+    }
+    .com-pro .pause {
+        background-size: 75px auto;
+    }
+    .com-pro .rig-words {
+        padding-top: 6%;
+    }
+    .cult-word .cult-in {
+        padding: 8%;
+    }
+    .words h6 {
+        margin-bottom: 10px;
+    }
+    .words p {
+        line-height: 18px;
+    }
+    .manage-box ul li {
+        width: 17%;
+        margin-left: 3%;
+        padding: 0 10px;
+    }
+    .manage-box ul li .icon-2 {
+        width: 28px;
+    }
+    .manage-box ul li p {
+        line-height: 18px;
+    }
+    .manage-box ul li .icon-2 {
+        margin: 20px auto 15px;
+    }
+    .service-list ul li .icon {
+        width: 28px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .banner .wrapper1260 {
+        left: 0;
+        margin-left: 0;
+    }
+    h4 {
+        font-size: 22px;
+    }
+    h6 {
+        font-size: 14px;
+    }
+    .cont-inner p {
+        font-size: 12px;
+    }
+    .pd50 {
+        padding: 25px 0;
+    }
+    .cult-word .cult-in {
+        padding: 6%;
+    }
+    .words h6 {
+        margin-bottom: 5px;
+    }
+    .words p,.manage-box ul li p {
+        line-height: 16px;
+    }
+    .manage-box ul li {
+        height: 170px;
+    }
+    .service-list ul li {
+        height: 190px;
+    }
+    .service-list ul li .icon {
+        margin: 30px auto 15px;
+    }
+}
+@media screen and (max-width: 640px) {
+    h4 {
+        font-size: 20px;
+        margin: 0 0 20px 20px;
+    }
+    h6 {
+        font-size: 14px;
+    }
+    .cont-inner p {
+        font-size: 12px;
+    }
+    .pd50 {
+        padding: 20px 0;
+    }
+    .growth-box .growth-list {
+        width: 100%;
+    }
+    .com-pro .wrapper1260 > div {
+        width: 100%;
+        height: auto;
+        min-height: 160px;
+        padding: 10px;
+    }
+    .radio-inner video, .radio-inner video object, .radio-inner video object embed {
+        height: auto;
+    }
+    .com-pro .pause {
+        background-size: 55px auto;
+    }
+    .cult-box .cult-1, .cult-box .cult-2 {
+        width: 100%;
+    }
+    .cult-box .cult-1 {
+        margin-bottom: 10px;
+    }
+    .step-box {
+        margin-bottom: 30px;
+    }
+    .manage-box ul li {
+        width: 19%;
+        margin-left: 1%;
+    }
+    .manage-box ul li .icon-2 {
+        width: 24px;
+        margin: 15px auto 10px;
+    }
+    .manage-box ul li h6 {
+        height: 32px;
+        line-height: 16px;
+    }
+    .service-list ul li {
+        padding: 0 5px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    .service-list ul li .icon {
+        width: 24px;
+    }
+    .cult-in .num {
+        width: 10px;
+        margin-right: 4%;
+    }
+    .cult-in .words {
+        width: 86%;
+    }
+    .words h6 {
+        margin-bottom: 0;
+    }
+    .step-box ul li .line {
+        margin: 10px 0;
+    }
+    .step-box ul li .sircle {
+        margin: -5px 0 0 -5px;
+    }
+    .cult-word .cult-in {
+        padding: 3px;
+    }
+    .cult-box .cult-word {
+        width: 38%;
+    }
+    .words p, .manage-box ul li p {
+        line-height: 12px;
+    }
+    .manage-box ul li {
+        padding: 0 5px;
+    }
+    .manage-box ul li .icon-2 {
+        margin: 10px auto 5px;
+    }
+    .cult-img .cult-img-2 {
+        display: block;
+    }
+    .cult-img .cult-img-1 {
+        display: none;
+    }
+    .cult-box .cult-word {
+        width: 57%;
+    }
+}

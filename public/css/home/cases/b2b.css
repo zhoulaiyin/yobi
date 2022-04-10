@@ -1,0 +1,152 @@
+/** banner **/
+.banner a{
+    background: url("/images/home/cases/banner1.jpg") no-repeat center center;
+    height: 270px;
+    display: block;
+}
+.wrapper1260{
+    width: 1260px;
+    margin: auto;
+}
+/** 模块1 **/
+.common-box{
+    padding: 50px 0;
+}
+h1.title {
+    color: #222;
+    height: 50px;
+    line-height: 50px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.title .cur-border {
+    border-bottom: 2px solid #0f7bd5;
+    display: inline-block;
+}
+.b2b-content{
+    overflow: hidden;
+    padding: 60px 60px 40px;
+    position: relative;
+}
+.b2b-content .triangle{
+    left: 51px;
+    position: absolute;
+    top: 95px;
+    width: 20px;
+}
+.b2b-content .upwards{
+    background: #333;
+    height: 690px;
+    position: absolute;
+    top: 100px;
+    width: 1px;
+}
+.b2b-content .value-add{
+    background: #fff;
+    color: #666;
+    font-size: 16px;
+    height: 80px;
+    left: 52px;
+    letter-spacing: 20px;
+    line-height: 20px;
+    overflow-wrap: break-word;
+    padding: 20px 0;
+    position: absolute;
+    text-align: center;
+    top: 325px;
+    width: 20px;
+}
+.b2b-content .b2b-left{
+    float: left;
+    padding-left: 60px;
+}
+.b2b-content .b2b-right{
+    float: left;
+    width: 875px;
+    padding: 50px 0;
+}
+.b2b-content .b2b-right ul li{
+    border-bottom: 1px dashed #e5e5e5;
+    padding: 60px 0 40px;
+    text-align: center;
+    font-size: 16px;
+    color: #666;
+}
+/** 模块2 **/
+.module-con{
+    background: #f2f2f2;
+    overflow: hidden;
+    padding-top: 50px;
+}
+.module-con .module-pic{
+    background: url("/images/home/cases/shop-pic2.png") no-repeat scroll 52% 0;
+    height: 440px;
+    position: relative;
+    margin-top: 365px;
+}
+.module-con .module-main p{
+    color: #333;
+    font-size: 20px;
+    font-weight: bold;
+    left: 584px;
+    position: absolute;
+    top: 205px;
+}
+.module-con .module-main span{
+    color: #333;
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    left: 577px;
+    position: absolute;
+    text-align: center;
+    top: 265px;
+    width: 100px;
+}
+.module-con .module-list dl{
+    background: #fff;
+    border: 1px dashed #cbcbcb;
+    border-radius: 3px;
+    box-sizing: border-box;
+    font-size: 16px;
+    padding: 20px;
+    position: absolute;
+    width: 230px;
+}
+.module-list .list1{
+    left: 30px;
+    top: -95px;
+}
+.module-list .list2{
+    left: 352px;
+    top: -340px;
+}
+.module-list .list3{
+    right: 360px;
+    top: -320px;
+}
+.module-list .list4{
+    right: 50px;
+    top: -55px;
+}
+.module-con .module-list dt{
+    font-size: 18px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+.module-list .blue{
+    color: #6f919d;
+}
+.module-list .green{
+    color: #80caa5;
+}
+.module-list .orange{
+    color: #fbb57f;
+}
+.module-list .purple{
+    color: #9b85be;
+}
+.module-list li{
+    padding-bottom: 10px;
+}

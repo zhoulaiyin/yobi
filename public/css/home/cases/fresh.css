@@ -1,0 +1,89 @@
+/** banner **/
+.banner a{
+    background: url("/images/home/cases/banner2.jpg") no-repeat center center;
+    height: 270px;
+    display: block;
+}
+.wrapper1260{
+    width: 1260px;
+    margin: auto;
+}
+/** 模块1 **/
+.fresh-info{
+    background: url("/images/home/cases/cases-img.png") no-repeat scroll 50% 0;
+    height: 575px;
+    margin: 0 auto;
+}
+
+/** 模块2 **/
+.common-box{
+    padding: 50px 0 0;
+}
+h1.title {
+    color: #222;
+    height: 50px;
+    line-height: 50px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.title .cur-border {
+    border-bottom: 2px solid #0f7bd5;
+    display: inline-block;
+}
+.back-img{
+    background: url("/images/home/cases/banner02.jpg") no-repeat 50% 0;
+    height: 580px;
+    margin-top: 180px;
+    position: relative;
+}
+.show-pic img{
+    left: 50%;
+    position: absolute;
+    top: -128px;
+    margin-left: -545px;
+}
+.fresh-cases-back{
+    background: url("/images/home/cases/cases-img2.png") no-repeat;
+    height: 845px;
+    position: relative;
+}
+.fresh-cases-word{
+    border-top: 1px solid #f2f2f2;
+    margin-top: 40px;
+    padding: 40px 0;
+    text-align: center;
+}
+.fresh-cases-back dl{
+    position: absolute;
+    width: 300px;
+}
+.fresh-cases-back .case1{
+    top: 108px;
+    left: 60px;
+}
+.fresh-cases-back .case2{
+    top: 108px;
+    left: 490px;
+}
+.fresh-cases-back .case3{
+    top: 108px;
+    right: 56px;
+}
+.fresh-cases-back .case4{
+    left: 272px;
+    top: 465px;
+}
+.fresh-cases-back .case5{
+    right: 270px;
+    top: 465px;
+}
+.fresh-cases-back dt{
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 40px;
+    text-align: center;
+}
+.fresh-cases-back li{
+    font-size: 15px;
+    padding-bottom: 15px;
+}

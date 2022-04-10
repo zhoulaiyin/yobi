@@ -1,0 +1,175 @@
+body {
+    color: #222;
+    background: #F4F4F4;
+    min-width: 320px;
+    -webkit-text-size-adjust: none;
+    margin: 0;
+}
+.content{
+     width: 97%;
+    font: inherit;
+    padding: 0;
+    margin: 0 auto;
+    font-size: 14px;
+    overflow: hidden;
+}
+.content .code{
+    margin: 10% 30% 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+/*头部*/
+.top-box{
+    position: fixed;
+    top:0;
+    -moz-box-shadow:0 1px 8px rgba(109,107,252, 0.2);
+    -webkit-box-shadow:0 1px 8px rgba(109,107,252, 0.2);
+    box-shadow:0 1px 8px rgba(109,107,252, 0.2);
+    width: 97%;
+    z-index: 200;
+    height: 65px;
+    background: #fff;
+}
+.top-box .logo{
+    height: 40px;
+    width: 40%;
+    overflow: hidden;
+    float: left;
+    margin-top: 12px;
+}
+.top-box .logo img{
+    height: 100%;
+    margin: 0 auto;
+}
+.top-icon{
+    float: right;
+}
+.code-button{
+    min-width: 50px;
+    min-height: 50px;
+    box-sizing: border-box;
+    position: relative;
+    float: left;
+    right: 22px;
+    top:20px;
+    cursor: pointer;
+}
+.login{
+    min-width: 60px;
+    box-sizing: border-box;
+    position: relative;
+    float: left;
+    right: 32px;
+}
+.login a{
+    color: #444;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+}
+.login .name{
+    height: 50px;
+    padding-top: 20px;
+    box-sizing: border-box;
+    position: relative;
+    font-size: 17px;
+}
+.login .name a{
+    height: 30px;
+    line-height: 30px;
+    min-width: 60px;
+    text-overflow: ellipsis;
+    white-space:nowrap;
+    overflow: hidden;
+    text-align: right;
+    right: 3px;
+}
+.login .name img{
+    position: absolute;
+    right: -15px;
+    top:33px;
+}
+.login .quit{
+    position: absolute;
+    top: 50px;
+    left: 0;
+    line-height: 23px;
+    height: 23px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    -webkit-border-radius: 10px;
+    -o-border-radius: 10px;
+    -moz-border-radius: 10px;
+    width: 100%;
+    background: #fff;
+}
+.top-box .home{
+    float: right;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+.top-box .home a{
+    display: block;
+}
+.top-box .home img{
+    width: 30px;
+    height: 30px;
+}
+.close-QR{
+    float:right;
+    width: 10%;
+    height: 5%;
+    margin-right: 47%;
+    margin-top: -15px;
+}
+.close-QR i{
+    font-size: 18px;
+    cursor: pointer;
+}
+.mian{
+    margin-top: 65px;
+    width: 100%;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+.mian li{
+    cursor: pointer;
+    height: 60px;
+    display: block;
+    border-bottom: 1px solid #ddd;
+    overflow: hidden;
+}
+.mian ul{
+    overflow: hidden;
+    -webkit-margin-before: 0;
+    -webkit-padding-start: 0;
+    background: #fff;
+}
+.mian .mian-img{
+    width: 40px;
+    height: 40px;
+    display: block;
+    margin: 10px 7px;
+    float: left;
+}
+.mian li img{
+   width: 100%;
+    height: 100%;
+}
+.mian .main-text{
+    float: left;
+    margin-top: 5px;
+}
+.mian .main-text p{
+    line-height: 25px;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    height: 25px;
+    margin: 0;
+}
+.mian .main-text .text{
+    color: #c2c2c2;
+}

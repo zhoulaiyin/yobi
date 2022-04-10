@@ -1,0 +1,205 @@
+.banner {
+    background-color: #0075a9;
+}
+.banner .wrapper1260 {
+    position: relative;
+    height: 270px;
+    overflow: hidden;
+}
+.banner img {display: block}
+.banner .try-btn {
+    position: absolute;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    border: 1px solid #fff;
+    top: 180px;
+    left: -14.5%;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 700;
+    transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+.banner .try-btn:hover {
+    background-color: #4098bf;
+    border-color: #4098bf;
+}
+.banner .words {
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: 14%;
+    top: 0;
+    transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+.banner .poster {
+    position: absolute;
+    width: 519px;
+    height: 0;
+    right: -519px;
+    top: -46px;
+    opacity: 0.3;
+    transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+.banner .pic1 {
+    position: absolute;
+    width: 154px;
+    height: 119px;
+    right: 373px;
+    top: -120px;
+    transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+.banner .pic2 {
+    position: absolute;
+    width: 55px;
+    height: 41px;
+    right: 527px;
+    top: -45px;
+    transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+.banner .pic3 {
+    position: absolute;
+    width: 67px;
+    height: 67px;
+    right: 130px;
+    top: -70px;
+    transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+
+.banner .add-current1 .words {
+    width: 395px;
+    height: 73px;
+    top: 75px;
+}
+.banner .add-current1 .poster {
+    right: 0;
+    height: 401px;
+}
+.banner .add-current2 .pic3 {
+    top: 242px
+}
+.banner .add-current2 .try-btn {
+    left:14.5% ;
+}
+
+.banner .current.pic1 {
+    top: 160px;
+}
+.banner .current.pic2 {
+    top: 243px;
+}
+
+h3.title {
+    height: 75px;
+    padding: 50px 0 30px 0;
+    font-size: 32px;
+    text-align: center;
+    color: #222;
+}
+
+.card-style {
+    overflow: hidden;
+    margin-bottom: 100px;
+}
+.card-style li {
+    float: left;
+    width: 244px;
+    height: 316px;
+    margin-right: 7px;
+    border: 1px solid #eee;
+}
+.card-style li:last-child{
+    margin-right: 0;
+}
+.card-style li div {
+    width: 244px;
+    height: 151px;
+    line-height: 151px;
+    color: #fff;
+    font-size: 30px;
+    background: url("/images/home/products/card.jpg") no-repeat 0 0;
+    text-align: center;
+}
+.card-style li div.style2 {
+    background-position: 0 -151px;
+}
+.card-style li div.style3 {
+    background-position: 0 -302px;
+}
+.card-style li div.style4 {
+    background-position: 0 -453px;
+}
+.card-style li div.style5 {
+    background-position: 0 -604px;
+}
+.card-style li p {
+    height: 164px;
+    padding: 42px 24px;
+    overflow: hidden;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333;
+}
+
+.progress {
+    background-color: #f3f3f3;
+}
+.progress img {
+    display: block;
+}
+.publish {
+    margin-bottom: 180px;
+}
+
+.introduce {
+    margin-bottom: 50px;
+}
+.introduce h3 {
+    height: 24px;
+    line-height: 24px;
+    font-size: 24px;
+    border-left: 4px solid #147cd3;
+    color: #333;
+    padding-left: 20px;
+    margin-bottom: 50px;
+}
+.introduce ul {
+    padding: 20px;
+    border: 1px solid #f2f2f2;
+}
+.introduce li {
+    height: 34px;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

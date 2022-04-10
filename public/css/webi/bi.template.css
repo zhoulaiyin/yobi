@@ -1,0 +1,809 @@
+* {
+    color: #222;
+    font-size: 14px;
+}
+.fl {
+    float: left;
+}
+.time-in {
+    display: none;
+}
+.fr {
+    float: right;
+}
+body {
+    background: #fff;
+}
+html,body,.content,.main {
+    overflow-y: auto;
+}
+/*头部*/
+.top-title {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 0 20px;
+    width: 100%;
+    height: 58px;
+    box-shadow: 0 0 6px 6px rgba(0,0,0,.05);
+    line-height: 58px;
+    z-index: 22;
+    background: #fff;
+}
+.top-title h6 {
+    font-size: 18px;
+    line-height: 58px;
+}
+.top-title .right-inner {
+    overflow: hidden;
+}
+.right-inner a {
+    float: left;
+    display: block;
+    margin-left: 15px;
+}
+.right-inner .preview {
+    padding: 0 30px;
+    background: url("/images/webi/biedit/icon-eye.png") no-repeat center left;
+}
+.right-inner .top-btn {
+    margin-top: 13px;
+    width: 100px;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    color: #fff;
+    border-radius: 20px;
+}
+.right-inner .overview {
+    background: #5cd489;
+}
+.right-inner .addBi {
+    background: #70a7ff;
+}
+.right-inner .global-attr {
+    background: #ffa970;
+}
+
+.main {
+    padding-top: 58px;
+    overflow: hidden;
+}
+iframe {
+    padding-top: 58px;
+    overflow: hidden;
+    z-index: 999999;
+}
+.main .left-list {
+    position: fixed;
+    padding:  42px 0 50px;
+    top: 58px;
+    left: -237px;
+    height: 100%;
+    width: 237px;
+    border-right: 1px solid #ddd;
+    background: #f1f1f1;
+    z-index: 2;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+.main .left-list.slient {
+    left: 0;
+}
+.left-list .left-side-show,.right-set .right-set-show {
+    position: absolute;
+    top: 0;
+    width: 42px;
+    height: 44px;
+}
+.left-list .left-side-show {
+    right: -42px;
+    background: url("/images/webi/biedit/icon-arr2.png") no-repeat center center #ddd;
+}
+.left-list .list-cont {
+    height: calc(100% - 82px);
+    overflow-y: auto;
+    padding-bottom: 60px;
+}
+.right-set .right-set-show {
+    left: -42px;
+    background: url("/images/webi/biedit/icon-arr1.png") no-repeat center center #ddd;
+}
+.main .part-title {
+    position: fixed;
+    top: 58px;
+    width: 237px;
+    height: 44px;
+    line-height: 44px;
+    background: #ddd;
+    padding: 0 0 0 15px;
+    z-index: 3;
+}
+.part-title i {
+    width: 42px;
+    text-align: center;
+    cursor: pointer;
+}
+.main .list-item .title-box {
+    position: relative;
+    height: 42px;
+    line-height: 42px;
+    padding-left: 15px;
+}
+.list-item .title-box .title {
+    overflow: hidden;
+    border-bottom: 1px solid #ccc;
+}
+.title-box .title i {
+    width: 42px;
+    text-align: center;
+    cursor: pointer;
+}
+.title-box .title .icon {
+    display: block;
+    height: 42px;
+}
+.up-arrow {
+    background: url("/images/webi/biedit/icon-arr4.png") no-repeat center center;
+}
+.down-arrow {
+    background: url("/images/webi/biedit/icon-arr3.png") no-repeat center center;
+}
+.select-box {
+    width: 100%;
+    height: 36px;
+    line-height: 36px;
+    background: #fff;
+}
+.select-box select {
+    width: 100%;
+    padding: 0 10px;
+    border: none;
+    appearance:none;
+    -moz-appearance:none;
+    -webkit-appearance:none;
+    background: url("/images/webi/biedit/icon-arr5.png") no-repeat scroll 211px center transparent;
+}
+.select-box select option {
+    line-height: 36px;
+    border: none;
+}
+
+.main .field-info {
+    position: fixed;
+    left: 240px;
+    top: 200px;
+    width: 250px;
+    height: 320px;
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 0 3px 3px rgba(0,0,0,.05);
+    z-index: 3;
+}
+.field-info .field-info-inner {
+    position: fixed;
+    width: 250px;
+    height: 320px;
+    padding: 34px 10px 40px;
+    overflow-y: auto;
+    background-color: #fff;
+}
+
+.field-info .field-info-title{
+    width: 250px;
+    height: 34px;
+    line-height: 34px;
+    padding-left: 10px;
+    position: fixed;
+    background: #fff;
+    border-bottom: 1px solid #eee;
+    z-index: 5;
+}
+.field-info-title p {
+    float: left;
+}
+.field-info-title i {
+    float: right;
+    display: block;
+    width: 40px;
+    height: 34px;
+    text-align: center;
+    line-height: 34px;
+    font-size:18px;
+    cursor: pointer;
+}
+.field-info .field-inf-btn {
+    position: absolute;
+    bottom: 0;
+    padding: 6px 12px;
+    width: 100%;
+    height: 40px;
+    margin-top: 280px;
+    text-align: right;
+    background: #fff;
+    border-top: 1px solid #eee;
+    z-index: 5;
+}
+.field-info .field-inf-btn button {
+    background: #fff;
+    border: 1px solid #70a7ff;
+    width: 60px;
+    height: 28px;
+    line-height: 26px;
+    border-radius: 4px;
+    color: #70a7ff;
+}
+.item-inner {
+    background: #fff;
+    padding: 5px 7px;
+    border-top: 1px solid #ccc;
+}
+.item-inner ul li {
+    position: relative;
+    margin-top: 5px;
+}
+.item-inner ul li:first-child {
+    margin-top: 0;
+}
+.item-inner .sub-item {
+    height: 24px;
+    line-height: 24px;
+    background: #f0f6fb;
+    padding: 0 8px;
+    cursor: pointer;
+}
+.sub-item span {
+    color: #666;
+    font-size: 12px;
+}
+.sub-item i {
+    line-height: 16px;
+}
+.sub-item input{
+    height: 24px;
+    padding: 0 12px;
+    width: 100%;
+}
+.operation {
+    position: absolute;
+    left: 238px;
+    width: 90px;
+    z-index: 3;
+    border: 1px solid #eee;
+}
+.operation .operation-1 {
+    position: relative;
+    height: 30px;
+    line-height: 30px;
+    border-top: 1px solid #eee;
+    background: #fff;
+    cursor: pointer;
+}
+.operation .operation-1:first-child {
+    border-top: none;
+}
+.operation .operation-1>p {
+    text-align: center;
+    color: #666;
+}
+.operation-1 .oper-arr {
+    background: url("/images/webi/biedit/icon-arr6.png") no-repeat 59px center;
+}
+.operation-1 .oper-chos {
+    background-color: #f0f6fb;
+}
+.operation .operation-1 .order-show{
+    position: absolute;
+    right: -94px;
+    border:1px solid #eee;
+    background: #fff;
+}
+.operation .operation-1 .appear-show{
+    position: absolute;
+    right: -94px;
+    top:-92px;
+    border:1px solid #eee;
+    background: #fff;
+}
+.operation .operation-1 .operation-2.order {
+    bottom: -32px;
+}
+.operation .operation-1 .operation-2.display {
+    bottom: 0;
+}
+.operation-2 .check {
+    background: #f0f6fb url("/images/webi/biedit/icon-check.png") no-repeat 8px center;
+}
+.operation-2>p {
+    width: 90px;
+    height: 30px;
+    text-align: center;
+    border-top: 1px solid #eee;
+    color: #666;
+    cursor: pointer;
+}
+.operation-2>p:first-child {
+    border-top: none;
+}
+.operation-2 .operation-3 {
+    position: absolute;
+    right: -92px;
+    bottom: 0;
+}
+.operation-3 input {
+    padding: 6px;
+    width: 90px;
+    height: 30px;
+    border: 1px solid #eee;
+}
+
+.field-info .operation-3-btn {
+    position: absolute;
+    bottom: 0;
+    padding: 0 15px;
+    width: 100%;
+    height: 40px;
+    text-align: right;
+    background: #fff;
+    border-top: 1px solid #eee;
+}
+.operation-3 button {
+    background: #fff;
+    border: 1px solid #70a7ff;
+    width: 100%;
+    height: 28px;
+    line-height: 26px;
+    border-radius: 4px;
+    color: #70a7ff;
+}
+
+.bottom-oper {
+    position: fixed;
+    bottom: 0;
+    width: 236px;
+    height: 50px;
+    background: #fff;
+}
+.bottom-oper .delete,.bottom-oper .change {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    margin-top: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.bottom-oper .delete {
+    background: url("/images/webi/biedit/icon-del.png") no-repeat center center;
+}
+.bottom-oper .change {
+    background: url("/images/webi/biedit/icon-exc.png") no-repeat center center;
+    margin-right: 10px;
+}
+.bottom-oper a {
+    display: none;
+    position: absolute;
+    top: -21px;
+    width: 98px;
+    height: 24px;
+    line-height: 24px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 3px 3px rgba(0,0,0,.05);
+    border-radius: 20px;
+    font-size: 12px;
+    color: #666;
+    background: #fff;
+}
+.bottom-oper .delete:hover a,.bottom-oper .change:hover a {
+    display: block;
+}
+.bottom-oper .delete a {
+    right: 5px;
+}
+.bottom-oper .change a {
+    left: 5px;
+}
+
+/*右侧设置*/
+.right-set {
+    position: fixed;
+    top: 58px;
+    right: -240px;
+    height: 100%;
+    width: 240px;
+    border-left: 1px solid #ddd;
+    background: #f1f1f1;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+.right-set.slient {
+    right: 0;
+}
+.right-set .setting-cont {
+    padding: 20px;
+    margin-top: 30px;
+}
+.setting-cont .set-inner {
+    margin-bottom: 15px;
+}
+.setting-cont .set-inner p {
+    margin-bottom: 10px;
+}
+.set-inner.name input {
+    width: 100%;
+    height: 30px;
+    padding: 6px 10px;
+    border-radius: 5px;
+    background: #fff;
+    border: none;
+}
+.set-inner .color-pick {
+    margin-bottom: 30px;
+}
+.set-inner .color-pick i{
+    display: block;
+    width: 27px;
+    height: 27px;
+    background: #70a7ff;
+    border-radius: 5px;
+}
+.set-inner .upload-box {
+    overflow: hidden;
+    text-align: center;
+}
+.set-inner .upload-box .bg-box {
+    position: relative;
+    width: 82px;
+    height: 82px;
+    border: 1px dashed #e5e5e5;
+    border-radius: 5px;
+    background: #fff;
+    text-align: center;
+    cursor: pointer;
+}
+.bg-box .layui-upload-list {
+    position: relative;
+}
+.layui-upload-list .img-del {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.5);
+    text-align: center;
+    z-index: 9;
+}
+.layui-upload-list .img-del i{
+    display: inline-block;
+    margin-top: 31px;
+    width: 20px;
+    height: 20px;
+    background: url("/images/webi/biedit/icon-del-3.png") no-repeat center center;
+}
+.bg-box .layui-upload-list:hover .img-del {
+    display: block;
+}
+.set-inner .upload-box .checked  .bg-box {
+    border: 1px dashed #70a7ff;
+}
+.bg-box .add-img {
+    padding-top: 5px;
+}
+.upload-box p {
+    font-size: 12px;
+    color: #888;
+}
+.add-img span {
+    font-size: 40px;
+    color: #888;
+}
+.add-img p {
+    margin-bottom: 0;
+}
+.layui-upload-list {
+    margin: 0;
+    padding: 5px;
+}
+.set-inner .border-style {
+    overflow: hidden;
+}
+.set-inner .border-style .style{
+    float: left;
+    width: 30%;
+    margin-left: 3.33%;
+}
+.set-inner .border-style .style:first-child{
+    margin-left: 0;
+}
+.border-style p {
+    font-size: 12px;
+    color: #888;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.border-style .style input,.border-style .style select {
+    width: 100%;
+    height: 24px;
+    border-radius: 4px;
+    border: none;
+}
+.border-style .style input {
+    padding: 4px 10px;
+    background: #fff;
+}
+.border-style .style select {
+    font-size: 12px;
+    line-height: 24px;
+    padding: 0 10px;
+    appearance:none;
+    -moz-appearance:none;
+    -webkit-appearance:none;
+    background: url("/images/webi/biedit/icon-arr3.png") no-repeat scroll 40px center #fff;
+}
+
+/**************************************主内容************************************/
+.pdleft {
+    /*padding-left: 237px;*/
+    margin-left: 237px;
+}
+.pdright {
+    /*padding-right: 240px;*/
+    margin-right: 240px;
+}
+
+.parent{
+    height:590px;
+    position: relative;
+    overflow-y: auto;
+    border:0px solid #392c2a;
+    box-shadow: 3px 3px 3px 0px #C7C7C7;
+}
+
+.top-grid {
+    position: absolute;
+    background-color: #FFFAFA;
+    border:0px solid #392c2a;
+    -webkit-box-shadow: 3px 3px 0px 3px #C7C7C7;
+    box-shadow: 3px 3px 3px 0px #C7C7C7;
+    text-align:center;
+    /*-webkit-transition: all .5s;*/
+    /*-moz-transition: all .5s;*/
+    /*-ms-transition: all .5s;*/
+    /*-o-transition: all .5s;*/
+    /*transition: all .5s;*/
+}
+
+.grid-active {
+    box-shadow: 0 0 0 2px rgba(81,130,227,.15),inset 0 0 0 2px #108ee9 !important;
+}
+.grid-selected {
+    background: #8CECE5;
+}
+
+.main-cont {
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+.main-cont .main-list {
+    padding: 0;
+}
+.main-list ul {
+    overflow: hidden;
+    padding: 10px;
+}
+
+.list-inner {
+    width: 280px;
+    height: 190px;
+    background: #fff;
+    box-shadow: 0 0 6px 6px rgba(0, 0, 0, 0.035);
+}
+.list-inner .list-oper {
+    position: relative;
+    height: 35px;
+    border-bottom: 1px solid #eee;
+}
+.list-inner .oper-touch{
+    float:left;
+    text-align: left;
+    width:90%;
+    height:35px;
+    padding-left: 10px;
+    padding-top: 7px;
+}
+.list-oper .oper-icon {
+    float: right;
+    display: block;
+    width:7%;
+    height: 35px;
+    background: url("/images/webi/biedit/icon-line.png") no-repeat center center;
+    cursor: pointer;
+}
+.list-oper .oper-box {
+    position: absolute;
+    bottom: -61px;
+    right: 0;
+    box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.035);
+    cursor: pointer;
+    z-index: 3;
+}
+.list-oper .oper-box a {
+    display: block;
+    width: 74px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+    color: #666;
+    text-align: center;
+    background: #fff;
+}
+.list-oper .oper-box a:hover {
+    background: #70a7ff;
+    color: #fff;
+}
+.list-inner .icon-drag {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 10px;
+    height: 10px;
+    background: url("/images/webi/biedit/icon-drag.png") no-repeat right bottom;
+    cursor: se-resize;
+    z-index: 3;
+}
+.list-inner .chart {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+
+/*弹层*/
+.screen-layer {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 686px;
+    height: 450px;
+    margin: -210px 0 0 -343px;
+    box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.035);
+    background: #fff;
+    z-index: 999999;
+}
+.screen-layer .screen-title {
+    position: fixed;
+    width: 686px;
+    height: 46px;
+    line-height: 46px;
+    padding: 0 10px 0 20px;
+    border-bottom: 1px solid #eee;
+}
+.screen-title a {
+    width: 30px;
+    height: 46px;
+    background: url("/images/webi/biedit/icon_clo.png") no-repeat center center;
+}
+.screen-inner {
+    padding: 57px 10px 20px;
+}
+.screen-inner .screen-tabel table{
+    width: 100%;
+}
+.screen-inner .screen-tabel table tr {
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+    color: #222;
+}
+.screen-inner .screen-tabel table tr th {
+    width: 25%;
+    font-size: 12px;
+}
+.screen-tabel table thead tr th,.tc {
+    text-align: center;
+}
+.screen-tabel table tbody tr {
+    background: #f1f1f1;
+    border-top: 5px solid #fff;
+}
+.screen-tabel table tbody tr:first-child {
+    border-top: none;
+}
+.screen-tabel table tbody tr th {
+    font-weight: normal;
+    font-size: 12px;
+}
+.screen-btn{
+    padding-top: 7px;
+}
+.table-body {
+    height: 135px;
+    overflow: auto;
+}
+.title-th p,.des-th p{
+    padding: 0 25px;
+    width: 100%;
+    max-width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.check-th .check-box{
+    display: inline-block;
+    vertical-align: middle;
+}
+.oper-th a{
+    display: inline-block;
+    vertical-align: middle;
+    width: 24px;
+    height: 30px;
+}
+.oper-th .edit {
+    background: url("/images/webi/biedit/icon_edit.png") no-repeat center center;
+}
+.oper-th .delete {
+    background: url("/images/webi/biedit/icon-del-2.png") no-repeat center center;
+}
+.screen-select {
+    background: #f1f1f1;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 10px;
+    margin: 10px 0;
+}
+.screen-select p {
+    width: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.screen-select .screen-select-box,.screen-select .input-box {
+    width: 85px;
+    font-size: 12px;
+    margin-left: 8px;
+}
+.screen-select-box select {
+    float: left;
+    margin-top: 4px;
+    width: 100%;
+    height: 22px;
+    line-height: 22px;
+    border: none;
+}
+.screen-select .input-box input {
+    width: 100%;
+    height: 22px;
+    padding: 3px;
+    line-height: 16px;
+    border: none;
+}
+.screen-expres p {
+    padding: 0 10px;
+    line-height: 40px;
+}
+.screen-expres .screen-text {
+    width: 100%;
+    height: 90px;
+    background: #f1f1f1;
+    padding: 10px 12px;
+    font-size: 12px;
+    color: #666;
+}
+.screen-text textarea {
+    width: 100%;
+    height: 100%;
+    background: none;
+    border: none;
+    resize: none;
+}

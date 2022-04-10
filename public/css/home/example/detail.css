@@ -1,0 +1,150 @@
+.top{
+    display: none;
+}
+.top-box{
+    display: none;
+}
+
+/** 顶部 **/
+.top-return{
+    /*overflow: hidden;*/
+    /*border-bottom: 1px solid #f2f2f2;*/
+    /*box-sizing: border-box;*/
+    height: 90px;
+    /*line-height: 60px;*/
+    /*padding-top: 92px;*/
+}
+.bnt-return a{
+    background: #0f7bd5;
+    color: #fff;
+    font-size: 16px;
+    display: block;
+    height: 60px;
+    line-height: 60px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/** 案例详情 **/
+.big-back{
+    background: #f2f2f2;
+}
+.wrapper1200{
+    width: 1200px;
+    margin: auto;
+}
+.detail-title{
+    padding: 50px 0 30px;
+}
+.detail-title .fl{
+    width: 500px;
+}
+.detail-title dt{
+    color: #333;
+    font-size: 20px;
+}
+.detail-title dd p{
+    margin: 50px 0;
+    font-size: 15px;
+}
+.detail-title dd i{
+    display: block;
+    height: 20px;
+    margin-bottom: 30px;
+}
+.detail-title dd li{
+    line-height: 25px;
+}
+
+.white-back{
+    background: #fff;
+    padding: 30px 20px 40px;
+}
+.white-back ul li img{
+    width: 100%;
+    display: block;
+}
+.white-back ul .show3{
+    padding: 195px 130px 100px 130px;
+}
+.white-back ul .tc img{
+    width: 30%;
+}
+.white-back ul ul{
+    padding: 0 130px;
+    width: 900px;
+    position: relative;
+}
+.white-back ul ul li{
+    color: #666;
+    font-size: 16px;
+    text-indent: 35px;
+    padding: 0 0 40px;
+}
+.number2{
+    background: url("/images/home/successcase/casedetail-icon2.png") no-repeat;
+    height: 178px;
+}
+.number3{
+    background: url("/images/home/successcase/casedetail-icon3.png") no-repeat scroll 95% 125%;
+    height: 178px;
+}
+.detail2{
+    width: 211px;
+}
+.detail3{
+    float: right;
+    width: 250px;
+}
+.exhibition2{
+    background: url("/images/home/successcase/casedetail-icon4.png") no-repeat;
+    bottom: -182px;
+    height: 462px;
+    position: absolute;
+    right: 140px;
+    width: 558px;
+}
+.exhibition3{
+    background: url("/images/home/successcase/casedetail-icon5.png") no-repeat;
+    height: 480px;
+    position: absolute;
+    top: 254px;
+    width: 558px;
+}
+/**  左右切换箭头  **/
+.bnt-switch{
+    background: #f2f2f2;
+    padding: 40px 0;
+    text-align: center;
+}
+.bnt-switch ul{
+    display: inline-block;
+    overflow: hidden;
+}
+.bnt-switch ul li{
+    background: #fff;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    float: left;
+    margin: 0 10px;
+    text-align: center;
+    width: 150px;
+}
+.bnt-switch ul li a{
+    border-radius: 3px;
+    height: 40px;
+    line-height: 40px;
+    color: #333;
+    font-size: 16px;
+    display: block;
+    background: #fff;
+}
+.bnt-switch ul li span {
+    border-radius: 3px;
+    height: 40px;
+    line-height: 40px;
+    color: #ccc;
+    font-size: 16px;
+    display: block;
+    background: #eee;
+}

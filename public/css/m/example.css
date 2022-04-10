@@ -1,0 +1,82 @@
+body{
+    background: #fff;
+}
+.example .example-list{
+    border-bottom: 1px solid #ddd;
+}
+.example .example-header{
+    width: 100%;
+    padding: 15px;
+    background: #efeff4;
+    position: relative;
+    box-sizing: border-box;
+}
+.example-header img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+.cust-name{
+    font-size: 15px;
+    color: #2e2e2e;
+    margin-left: 10px;
+}
+.example-header .icon{
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    margin-top: -11px;
+    color: #020202;
+    font-size: 18px;
+}
+.example-info{
+    border-bottom: 1px solid #dbdbdb;
+}
+.example-info-list{
+    height: 30px;
+    line-height: 30px;
+    margin-left: 15px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #ccc;
+}
+.example-info-list:last-child{
+    border:none;
+}
+.example-info-list .name-list{
+    width: 40%;
+    float: left;
+    display: block;
+    color: #2e2e2e;
+    font-size: 14px;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+.example-info-list .sub-list{
+    width: 60%;
+    float: left;
+    display: block;
+    color: #7c7c7c;
+    font-size: 14px;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+.example-description{
+    color: #3b3b3b;
+    font-size: 12px;
+    padding: 10px 15px 0;
+    text-indent: 24px;
+    text-align: justify;
+    line-height: 18px;
+}
+.two-code{
+    width: 114px;
+    margin: 0 auto;
+}
+.two-code img{
+    margin: 30px auto;
+}

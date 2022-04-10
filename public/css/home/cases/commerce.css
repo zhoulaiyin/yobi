@@ -1,0 +1,60 @@
+/** banner **/
+.banner a{
+    background: url("/images/home/cases/banner3.jpg") no-repeat center center;
+    height: 270px;
+    display: block;
+}
+.wrapper1260{
+    width: 1260px;
+    margin: auto;
+}
+/** 模块1 **/
+.common-box{
+    padding: 50px 0 0;
+}
+h1.title {
+    color: #222;
+    height: 50px;
+    line-height: 50px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.title .cur-border {
+    border-bottom: 2px solid #0f7bd5;
+    display: inline-block;
+}
+
+.second-title{
+    display: inline-block;
+    font-size: 16px;
+    text-align: center;
+    width: 685px;
+}
+.banner-img img{
+    max-width: 100%;
+    height: auto;
+}
+.commerce-text{
+    padding: 50px 0 20px 70px;
+    overflow: hidden;
+}
+.commerce-text .commerce-list-detail{
+    padding-left: 20px;
+    width: 1060px;
+}
+.commerce-text .commerce-list-detail dl{
+    padding-bottom: 50px;
+}
+/*.commerce-text .commerce-list-detail .add-padding{*/
+    /*padding-top: 20px;*/
+/*}*/
+.commerce-text .commerce-list-detail dt{
+    color: #333;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 40px 0;
+}
+.commerce-text .commerce-list-detail dd ul li{
+    line-height: 30px;
+    font-size: 16px;
+}
